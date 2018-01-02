@@ -48,7 +48,8 @@ def simpleNMT(pad_length=100,
 
     model = Model(inputs=input_, outputs=y_hat)
 
-    return model
+    #return model
+    return input_,y_hat
 
 
 if __name__ == '__main__':

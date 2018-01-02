@@ -30,13 +30,11 @@ pip install -r requirements.txt
 ```
 
 
-## Creating the dataset
+## Already existing data from stanford manual dialogue dataset
 
 `cd` into `data` and run
 
-```
-python generate.py
-```
+
 
 This will create 4 files:
 1. `training.csv` - data to train the model
@@ -91,7 +89,11 @@ named arguments:
 
 The default `padding` parameters correspond between `run.py` and `visualize.py` and therefore, if you change this make sure to note it. You must supply the path to the weights you want to use and an example/file of examples. An example file is provided in `examples.txt`. 
 
-### Example visualizations
+### Example visualizations for dates dataset
+# use this code to generate dates dataset
+```
+python generate.py
+```
 
 Here are some example visuals you can obtain:
 

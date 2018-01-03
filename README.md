@@ -1,8 +1,10 @@
 # Attention RNNs in Keras
 
-Implementation and visualization of a custom RNN layer with attention in Keras for translating dates.
+Implementation and visualization of a custom RNN layer with attention in Keras .
 
-This repository comes with a tutorial found here: https://medium.com/datalogue/attention-in-keras-1892773a4f22
+```
+Dataset - https://nlp.stanford.edu/blog/a-new-multi-turn-multi-domain-task-oriented-dialogue-dataset/
+```
 
 ## Setting up the repository
 
@@ -11,7 +13,7 @@ This repository comes with a tutorial found here: https://medium.com/datalogue/a
 1. Clone this repository to your local system
 
 ```
-git clone https://github.com/datalogue/keras-attention.git
+git clone -b My_Dialog https://github.com/sunnysai12345/keras-attention.git
 ```
 
 2. Install the requirements
@@ -32,16 +34,12 @@ pip install -r requirements.txt
 
 ## Already existing data from stanford manual dialogue dataset
 
-`cd` into `data` and run
-
-
-
-This will create 4 files:
+Download the files from https://drive.google.com/open?id=0ByDWT4kqM592bU9jOVhUSXZTa28 and place them in data folder.
 1. `training.csv` - data to train the model
 2. `validation.csv` - data to evaluate the model and compare performance
-3. `human_vocab.json` - vocabulary for the human dates
-4. `machine_vocab.json` - vocabulary for the machine dates
+3. `vocabulary.json` - vocabulary file
 
+`cd` into `data` and run
 
 ## Running the model
 
@@ -89,27 +87,10 @@ named arguments:
 
 The default `padding` parameters correspond between `run.py` and `visualize.py` and therefore, if you change this make sure to note it. You must supply the path to the weights you want to use and an example/file of examples. An example file is provided in `examples.txt`. 
 
-### Example visualizations for dates dataset
-# use this code to generate dates dataset
-```
-python generate.py
-```
-
-Here are some example visuals you can obtain:
-
-![image](https://user-images.githubusercontent.com/6295292/26899949-bbac0c7c-4b9e-11e7-84d6-c2f31166af07.png)
-
-*The model has learned that “Saturday” has no predictive value!*
-
-![image](https://user-images.githubusercontent.com/6295292/26899993-dd40e416-4b9e-11e7-99ec-71d536832347.png)
-
-*We can see the weirdly formatted date “January 2016 5” is incorrectly translated as 2016–01–02 where the “02” comes from the “20” in 2016*
 
 ### Help
 
 Start an issue if you find a bug or would like to contribute!
-
-For other matters, you can contact [@zafarali](http://www.github.com/zafarali) at zaf@datalogue.io or us directly contact@datalogue.io 
 
 
 ### Acknowledgements
@@ -118,6 +99,7 @@ As with all open source code, we could not have built this without other code ou
 
 1. [rasmusbergpalm/normalization](https://github.com/rasmusbergpalm/normalization/blob/master/babel_data.py) - for some of the data generation code.
 2. [joke2k/faker](https://github.com/joke2k/faker) for their fake data generator.
+3. datalogue 
 
 ### References
 

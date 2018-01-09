@@ -1,14 +1,24 @@
 import numpy as np
 import os
+import keras
+from keras.layers import Lambda
+#from keras import backend as k
 from keras.models import Model
 from keras.layers import Dense, Embedding, Activation, Permute
 from keras.layers import Input, Flatten, Dropout
 from keras.layers.recurrent import LSTM
 from keras.layers.wrappers import TimeDistributed, Bidirectional
-from .custom_recurrents import AttentionDecoder
+from models.custom_recurrents import AttentionDecoder
 
+def reshape(tensor,batch_size,pad_length,seq_length):
+    tensor = keras.backend.reshape(tensor, (batch_size, pad_length, seq_length))
+    return tensor
+def reshape1(tensor,batch_size,pad_length,seq_length):
+    tensor=keras.backend.mean(tensor,axis=2)
+    tensor = keras.backend.reshape(tensor, (batch_size, pad_length, seq_length))
+    return tensor
 
-def simpleNMT(pad_length=100,
+def simpleNMT(pad_length=100,batch_size=32,
               n_chars=105,
               n_labels=6,
               embedding_learnable=False,
@@ -28,28 +38,44 @@ def simpleNMT(pad_length=100,
     Lee, Jason, Kyunghyun Cho, and Thomas Hofmann. 
     "Neural Machine Translation By Jointly Learning To Align and Translate" 
     """
-    input_ = Input(shape=(pad_length,), dtype='float32')
-    input_embed = Embedding(n_chars, n_chars,
+    input1 = Input(shape=(pad_length,), dtype='float32')
+    input2 = Input(shape=(443,4), dtype='float32')
+    input_embed = Embedding(n_chars, 100,
                             input_length=pad_length,
                             trainable=embedding_learnable,
-                            weights=[np.eye(n_chars)],
-                            name='OneHot')(input_)
+                            name='OneHot1')(input1)
+    input_embed2= Embedding(n_chars, 60,
+                            input_length=4,
+                            trainable=embedding_learnable,
+                            name='OneHot2')(input2)
+    input_embed2=Lambda(reshape1,arguments={'batch_size':batch_size,'pad_length':443,'seq_length':60},name='lambda3')(input_embed2)
 
     rnn_encoded = Bidirectional(LSTM(encoder_units, return_sequences=True),
                                 name='bidirectional_1',
                                 merge_mode='concat',
                                 trainable=trainable)(input_embed)
 
-    y_hat = AttentionDecoder(decoder_units,
+    y1_hat = AttentionDecoder(decoder_units,
                              name='attention_decoder_1',
                              output_dim=n_labels,
                              return_probabilities=return_probabilities,
                              trainable=trainable)(rnn_encoded)
+    y2_hat = AttentionDecoder(decoder_units, name='attention_decoder_2',
+                              output_dim=1,
+                              return_probabilities=return_probabilities,
+                              trainable=trainable)(input_embed2)
 
-    model = Model(inputs=input_, outputs=y_hat)
+    #y2_hat=keras.backend.reshape(y2_hat,(batch_size,pad_length,443))
+    y2_hat=Lambda(reshape,arguments={'batch_size':batch_size,'pad_length':pad_length,'seq_length':443},name='lambda2')(y2_hat)
+    y1_hat = Lambda(reshape, arguments={'batch_size': batch_size, 'pad_length': pad_length,'seq_length':1522},name='lambda1')(y1_hat)
+    #y1_hat = keras.backend.reshape(y1_hat, (batch_size, pad_length,n_chars))
 
-    #return model
-    return input_,y_hat
+    y_hat = keras.layers.concatenate([y1_hat,y2_hat],axis=2)
+
+    model = Model(inputs=[input1,input2], outputs=y_hat)
+
+    # return model
+    return model
 
 
 if __name__ == '__main__':

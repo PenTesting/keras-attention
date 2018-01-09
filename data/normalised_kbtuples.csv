@@ -1,0 +1,444 @@
+,object,relation,subject
+0,Dish Parking#address,address,Dish Parking
+1,parking garage#poi,poi,parking garage
+2,Dish Parking#traffic_info,traffic_info,Dish Parking
+3,Dish Parking#distance,distance,Dish Parking
+4,Stanford Oval Parking#address,address,Stanford Oval Parking
+6,Stanford Oval Parking#traffic_info,traffic_info,Stanford Oval Parking
+7,Stanford Oval Parking#distance,distance,Stanford Oval Parking
+8,Willows Market#address,address,Willows Market
+9,grocery store#poi,poi,grocery store
+10,Willows Market#traffic_info,traffic_info,Willows Market
+11,Willows Market#distance,distance,Willows Market
+12,The Westin#address,address,The Westin
+13,rest stop#poi,poi,rest stop
+14,The Westin#traffic_info,traffic_info,The Westin
+15,The Westin#distance,distance,The Westin
+16,toms house#address,address,toms house
+17,friends house#poi,poi,friends house
+18,toms house#traffic_info,traffic_info,toms house
+19,toms house#distance,distance,toms house
+20,Pizza Chicago#address,address,Pizza Chicago
+21,pizza restaurant#poi,poi,pizza restaurant
+22,Pizza Chicago#traffic_info,traffic_info,Pizza Chicago
+23,Pizza Chicago#distance,distance,Pizza Chicago
+24,Valero#address,address,Valero
+25,gas station#poi,poi,gas station
+26,Valero#traffic_info,traffic_info,Valero
+27,Valero#distance,distance,Valero
+28,Mandarin Roots#address,address,Mandarin Roots
+29,chinese restaurant#poi,poi,chinese restaurant
+30,Mandarin Roots#traffic_info,traffic_info,Mandarin Roots
+31,Mandarin Roots#distance,distance,Mandarin Roots
+32,Town and Country#address,address,Town and Country
+33,shopping center#poi,poi,shopping center
+34,Town and Country#traffic_info,traffic_info,Town and Country
+35,Town and Country#distance,distance,Town and Country
+36,76#address,address,76
+38,76#traffic_info,traffic_info,76
+39,76#distance,distance,76
+40,Stanford Shopping Center#address,address,Stanford Shopping Center
+42,Stanford Shopping Center#traffic_info,traffic_info,Stanford Shopping Center
+43,Stanford Shopping Center#distance,distance,Stanford Shopping Center
+44,Teavana#address,address,Teavana
+45,coffee or tea place#poi,poi,coffee or tea place
+46,Teavana#traffic_info,traffic_info,Teavana
+47,Teavana#distance,distance,Teavana
+48,Dominos#address,address,Dominos
+50,Dominos#traffic_info,traffic_info,Dominos
+51,Dominos#distance,distance,Dominos
+52,Palo Alto Garage R#address,address,Palo Alto Garage R
+54,Palo Alto Garage R#traffic_info,traffic_info,Palo Alto Garage R
+55,Palo Alto Garage R#distance,distance,Palo Alto Garage R
+56,Stanford Express Care#address,address,Stanford Express Care
+57,hospital#poi,poi,hospital
+58,Stanford Express Care#traffic_info,traffic_info,Stanford Express Care
+59,Stanford Express Care#distance,distance,Stanford Express Care
+60,Palo Alto Medical Foundation#address,address,Palo Alto Medical Foundation
+62,Palo Alto Medical Foundation#traffic_info,traffic_info,Palo Alto Medical Foundation
+63,Palo Alto Medical Foundation#distance,distance,Palo Alto Medical Foundation
+64,P.F. Changs#address,address,P.F. Changs
+66,P.F. Changs#traffic_info,traffic_info,P.F. Changs
+67,P.F. Changs#distance,distance,P.F. Changs
+68,Ravenswood Shopping Center#address,address,Ravenswood Shopping Center
+70,Ravenswood Shopping Center#traffic_info,traffic_info,Ravenswood Shopping Center
+71,Ravenswood Shopping Center#distance,distance,Ravenswood Shopping Center
+72,Chef Chu's#address,address,Chef Chu's
+74,Chef Chu's#traffic_info,traffic_info,Chef Chu's
+75,Chef Chu's#distance,distance,Chef Chu's
+84,home#address,address,home
+85,home#poi,poi,home
+86,home#traffic_info,traffic_info,home
+87,home#distance,distance,home
+88,Philz#address,address,Philz
+90,Philz#traffic_info,traffic_info,Philz
+91,Philz#distance,distance,Philz
+96,dentist appointment#time,time,dentist appointment
+97,dentist appointment#room,room,dentist appointment
+98,dentist appointment#party,party,dentist appointment
+99,dentist appointment#agenda,agenda,dentist appointment
+100,dentist appointment#date,date,dentist appointment
+101,taking medicine#time,time,taking medicine
+102,taking medicine#room,room,taking medicine
+103,taking medicine#party,party,taking medicine
+104,taking medicine#agenda,agenda,taking medicine
+105,taking medicine#date,date,taking medicine
+106,football activity#time,time,football activity
+107,football activity#room,room,football activity
+108,football activity#party,party,football activity
+109,football activity#agenda,agenda,football activity
+110,football activity#date,date,football activity
+111,yoga activity#time,time,yoga activity
+112,yoga activity#room,room,yoga activity
+113,yoga activity#party,party,yoga activity
+114,yoga activity#agenda,agenda,yoga activity
+115,yoga activity#date,date,yoga activity
+116,lab appointment#time,time,lab appointment
+117,lab appointment#room,room,lab appointment
+118,lab appointment#party,party,lab appointment
+119,lab appointment#agenda,agenda,lab appointment
+120,lab appointment#date,date,lab appointment
+121,dinner#time,time,dinner
+122,dinner#room,room,dinner
+123,dinner#party,party,dinner
+124,dinner#agenda,agenda,dinner
+125,dinner#date,date,dinner
+126,manhattan#monday,monday,manhattan
+127,manhattan#tuesday,tuesday,manhattan
+128,manhattan#wednesday,wednesday,manhattan
+129,manhattan#thursday,thursday,manhattan
+130,manhattan#friday,friday,manhattan
+131,manhattan#saturday,saturday,manhattan
+132,manhattan#sunday,sunday,manhattan
+133,camarillo#monday,monday,camarillo
+134,camarillo#tuesday,tuesday,camarillo
+135,camarillo#wednesday,wednesday,camarillo
+136,camarillo#thursday,thursday,camarillo
+137,camarillo#friday,friday,camarillo
+138,camarillo#saturday,saturday,camarillo
+139,camarillo#sunday,sunday,camarillo
+140,menlo park#monday,monday,menlo park
+141,menlo park#tuesday,tuesday,menlo park
+142,menlo park#wednesday,wednesday,menlo park
+143,menlo park#thursday,thursday,menlo park
+144,menlo park#friday,friday,menlo park
+145,menlo park#saturday,saturday,menlo park
+146,menlo park#sunday,sunday,menlo park
+147,new york#monday,monday,new york
+148,new york#tuesday,tuesday,new york
+149,new york#wednesday,wednesday,new york
+150,new york#thursday,thursday,new york
+151,new york#friday,friday,new york
+152,new york#saturday,saturday,new york
+153,new york#sunday,sunday,new york
+154,corona#monday,monday,corona
+155,corona#tuesday,tuesday,corona
+156,corona#wednesday,wednesday,corona
+157,corona#thursday,thursday,corona
+158,corona#friday,friday,corona
+159,corona#saturday,saturday,corona
+160,corona#sunday,sunday,corona
+161,seattle#monday,monday,seattle
+162,seattle#tuesday,tuesday,seattle
+163,seattle#wednesday,wednesday,seattle
+164,seattle#thursday,thursday,seattle
+165,seattle#friday,friday,seattle
+166,seattle#saturday,saturday,seattle
+167,seattle#sunday,sunday,seattle
+168,grand rapids#monday,monday,grand rapids
+169,grand rapids#tuesday,tuesday,grand rapids
+170,grand rapids#wednesday,wednesday,grand rapids
+171,grand rapids#thursday,thursday,grand rapids
+172,grand rapids#friday,friday,grand rapids
+173,grand rapids#saturday,saturday,grand rapids
+174,grand rapids#sunday,sunday,grand rapids
+175,danville#monday,monday,danville
+176,danville#tuesday,tuesday,danville
+177,danville#wednesday,wednesday,danville
+178,danville#thursday,thursday,danville
+179,danville#friday,friday,danville
+180,danville#saturday,saturday,danville
+181,danville#sunday,sunday,danville
+189,san jose#monday,monday,san jose
+190,san jose#tuesday,tuesday,san jose
+191,san jose#wednesday,wednesday,san jose
+192,san jose#thursday,thursday,san jose
+193,san jose#friday,friday,san jose
+194,san jose#saturday,saturday,san jose
+195,san jose#sunday,sunday,san jose
+196,los angeles#monday,monday,los angeles
+197,los angeles#tuesday,tuesday,los angeles
+198,los angeles#wednesday,wednesday,los angeles
+199,los angeles#thursday,thursday,los angeles
+200,los angeles#friday,friday,los angeles
+201,los angeles#saturday,saturday,los angeles
+202,los angeles#sunday,sunday,los angeles
+203,durham#monday,monday,durham
+204,durham#tuesday,tuesday,durham
+205,durham#wednesday,wednesday,durham
+206,durham#thursday,thursday,durham
+207,durham#friday,friday,durham
+208,durham#saturday,saturday,durham
+209,durham#sunday,sunday,durham
+210,san francisco#monday,monday,san francisco
+211,san francisco#tuesday,tuesday,san francisco
+212,san francisco#wednesday,wednesday,san francisco
+213,san francisco#thursday,thursday,san francisco
+214,san francisco#friday,friday,san francisco
+215,san francisco#saturday,saturday,san francisco
+216,san francisco#sunday,sunday,san francisco
+217,boston#monday,monday,boston
+218,boston#tuesday,tuesday,boston
+219,boston#wednesday,wednesday,boston
+220,boston#thursday,thursday,boston
+221,boston#friday,friday,boston
+222,boston#saturday,saturday,boston
+223,boston#sunday,sunday,boston
+224,cleveland#monday,monday,cleveland
+225,cleveland#tuesday,tuesday,cleveland
+226,cleveland#wednesday,wednesday,cleveland
+227,cleveland#thursday,thursday,cleveland
+228,cleveland#friday,friday,cleveland
+229,cleveland#saturday,saturday,cleveland
+230,cleveland#sunday,sunday,cleveland
+238,brentwood#monday,monday,brentwood
+239,brentwood#tuesday,tuesday,brentwood
+240,brentwood#wednesday,wednesday,brentwood
+241,brentwood#thursday,thursday,brentwood
+242,brentwood#friday,friday,brentwood
+243,brentwood#saturday,saturday,brentwood
+244,brentwood#sunday,sunday,brentwood
+245,inglewood#monday,monday,inglewood
+246,inglewood#tuesday,tuesday,inglewood
+247,inglewood#wednesday,wednesday,inglewood
+248,inglewood#thursday,thursday,inglewood
+249,inglewood#friday,friday,inglewood
+250,inglewood#saturday,saturday,inglewood
+251,inglewood#sunday,sunday,inglewood
+252,mountain view#monday,monday,mountain view
+253,mountain view#tuesday,tuesday,mountain view
+254,mountain view#wednesday,wednesday,mountain view
+255,mountain view#thursday,thursday,mountain view
+256,mountain view#friday,friday,mountain view
+257,mountain view#saturday,saturday,mountain view
+258,mountain view#sunday,sunday,mountain view
+266,compton#monday,monday,compton
+267,compton#tuesday,tuesday,compton
+268,compton#wednesday,wednesday,compton
+269,compton#thursday,thursday,compton
+270,compton#friday,friday,compton
+271,compton#saturday,saturday,compton
+272,compton#sunday,sunday,compton
+308,oakland#monday,monday,oakland
+309,oakland#tuesday,tuesday,oakland
+310,oakland#wednesday,wednesday,oakland
+311,oakland#thursday,thursday,oakland
+312,oakland#friday,friday,oakland
+313,oakland#saturday,saturday,oakland
+314,oakland#sunday,sunday,oakland
+329,san mateo#monday,monday,san mateo
+330,san mateo#tuesday,tuesday,san mateo
+331,san mateo#wednesday,wednesday,san mateo
+332,san mateo#thursday,thursday,san mateo
+333,san mateo#friday,friday,san mateo
+334,san mateo#saturday,saturday,san mateo
+335,san mateo#sunday,sunday,san mateo
+350,alhambra#monday,monday,alhambra
+351,alhambra#tuesday,tuesday,alhambra
+352,alhambra#wednesday,wednesday,alhambra
+353,alhambra#thursday,thursday,alhambra
+354,alhambra#friday,friday,alhambra
+355,alhambra#saturday,saturday,alhambra
+356,alhambra#sunday,sunday,alhambra
+357,atherton#monday,monday,atherton
+358,atherton#tuesday,tuesday,atherton
+359,atherton#wednesday,wednesday,atherton
+360,atherton#thursday,thursday,atherton
+361,atherton#friday,friday,atherton
+362,atherton#saturday,saturday,atherton
+363,atherton#sunday,sunday,atherton
+371,redwood city#monday,monday,redwood city
+372,redwood city#tuesday,tuesday,redwood city
+373,redwood city#wednesday,wednesday,redwood city
+374,redwood city#thursday,thursday,redwood city
+375,redwood city#friday,friday,redwood city
+376,redwood city#saturday,saturday,redwood city
+377,redwood city#sunday,sunday,redwood city
+413,exeter#monday,monday,exeter
+414,exeter#tuesday,tuesday,exeter
+415,exeter#wednesday,wednesday,exeter
+416,exeter#thursday,thursday,exeter
+417,exeter#friday,friday,exeter
+418,exeter#saturday,saturday,exeter
+419,exeter#sunday,sunday,exeter
+424,Starbucks#address,address,Starbucks
+426,Starbucks#traffic_info,traffic_info,Starbucks
+427,Starbucks#distance,distance,Starbucks
+432,5677 springer street#address,address,5677 springer street
+433,certain address#poi,poi,certain address
+434,5677 springer street#traffic_info,traffic_info,5677 springer street
+435,5677 springer street#distance,distance,5677 springer street
+436,Safeway#address,address,Safeway
+438,Safeway#traffic_info,traffic_info,Safeway
+439,Safeway#distance,distance,Safeway
+444,Hotel Keen#address,address,Hotel Keen
+446,Hotel Keen#traffic_info,traffic_info,Hotel Keen
+447,Hotel Keen#distance,distance,Hotel Keen
+452,Papa Johns#address,address,Papa Johns
+454,Papa Johns#traffic_info,traffic_info,Papa Johns
+455,Papa Johns#distance,distance,Papa Johns
+456,Jing Jing#address,address,Jing Jing
+458,Jing Jing#traffic_info,traffic_info,Jing Jing
+459,Jing Jing#distance,distance,Jing Jing
+460,Whole Foods#address,address,Whole Foods
+462,Whole Foods#traffic_info,traffic_info,Whole Foods
+463,Whole Foods#distance,distance,Whole Foods
+464,Peets Coffee#address,address,Peets Coffee
+466,Peets Coffee#traffic_info,traffic_info,Peets Coffee
+467,Peets Coffee#distance,distance,Peets Coffee
+485,meeting#time,time,meeting
+486,meeting#room,room,meeting
+487,meeting#party,party,meeting
+488,meeting#agenda,agenda,meeting
+489,meeting#date,date,meeting
+495,doctor appointment#time,time,doctor appointment
+496,doctor appointment#room,room,doctor appointment
+497,doctor appointment#party,party,doctor appointment
+498,doctor appointment#agenda,agenda,doctor appointment
+499,doctor appointment#date,date,doctor appointment
+548,fresno#monday,monday,fresno
+549,fresno#tuesday,tuesday,fresno
+550,fresno#wednesday,wednesday,fresno
+551,fresno#thursday,thursday,fresno
+552,fresno#friday,friday,fresno
+553,fresno#saturday,saturday,fresno
+554,fresno#sunday,sunday,fresno
+555,alameda#monday,monday,alameda
+556,alameda#tuesday,tuesday,alameda
+557,alameda#wednesday,wednesday,alameda
+558,alameda#thursday,thursday,alameda
+559,alameda#friday,friday,alameda
+560,alameda#saturday,saturday,alameda
+561,alameda#sunday,sunday,alameda
+679,carson#monday,monday,carson
+680,carson#tuesday,tuesday,carson
+681,carson#wednesday,wednesday,carson
+682,carson#thursday,thursday,carson
+683,carson#friday,friday,carson
+684,carson#saturday,saturday,carson
+685,carson#sunday,sunday,carson
+728,downtown chicago#monday,monday,downtown chicago
+729,downtown chicago#tuesday,tuesday,downtown chicago
+730,downtown chicago#wednesday,wednesday,downtown chicago
+731,downtown chicago#thursday,thursday,downtown chicago
+732,downtown chicago#friday,friday,downtown chicago
+733,downtown chicago#saturday,saturday,downtown chicago
+734,downtown chicago#sunday,sunday,downtown chicago
+788,Pizza Hut#address,address,Pizza Hut
+790,Pizza Hut#traffic_info,traffic_info,Pizza Hut
+791,Pizza Hut#distance,distance,Pizza Hut
+792,Four Seasons#address,address,Four Seasons
+794,Four Seasons#traffic_info,traffic_info,Four Seasons
+795,Four Seasons#distance,distance,Four Seasons
+804,Trader Joes#address,address,Trader Joes
+806,Trader Joes#traffic_info,traffic_info,Trader Joes
+807,Trader Joes#distance,distance,Trader Joes
+808,tai pan#address,address,tai pan
+810,tai pan#traffic_info,traffic_info,tai pan
+811,tai pan#distance,distance,tai pan
+812,Sigona Farmers Market#address,address,Sigona Farmers Market
+814,Sigona Farmers Market#traffic_info,traffic_info,Sigona Farmers Market
+815,Sigona Farmers Market#distance,distance,Sigona Farmers Market
+925,Midtown Shopping Center#address,address,Midtown Shopping Center
+927,Midtown Shopping Center#traffic_info,traffic_info,Midtown Shopping Center
+928,Midtown Shopping Center#distance,distance,Midtown Shopping Center
+933,jills house#address,address,jills house
+935,jills house#traffic_info,traffic_info,jills house
+936,jills house#distance,distance,jills house
+937,Palo Alto Cafe#address,address,Palo Alto Cafe
+939,Palo Alto Cafe#traffic_info,traffic_info,Palo Alto Cafe
+940,Palo Alto Cafe#distance,distance,Palo Alto Cafe
+941,Topanga Mall#address,address,Topanga Mall
+943,Topanga Mall#traffic_info,traffic_info,Topanga Mall
+944,Topanga Mall#distance,distance,Topanga Mall
+949,Panda Express#address,address,Panda Express
+951,Panda Express#traffic_info,traffic_info,Panda Express
+952,Panda Express#distance,distance,Panda Express
+957,Chevron#address,address,Chevron
+959,Chevron#traffic_info,traffic_info,Chevron
+960,Chevron#distance,distance,Chevron
+961,jacks house#address,address,jacks house
+963,jacks house#traffic_info,traffic_info,jacks house
+964,jacks house#distance,distance,jacks house
+1014,swimming activity#time,time,swimming activity
+1015,swimming activity#room,room,swimming activity
+1016,swimming activity#party,party,swimming activity
+1017,swimming activity#agenda,agenda,swimming activity
+1018,swimming activity#date,date,swimming activity
+1029,medicine#time,time,medicine
+1030,medicine#room,room,medicine
+1031,medicine#party,party,medicine
+1032,medicine#agenda,agenda,medicine
+1033,medicine#date,date,medicine
+1039,conference#time,time,conference
+1040,conference#room,room,conference
+1041,conference#party,party,conference
+1042,conference#agenda,agenda,conference
+1043,conference#date,date,conference
+1088,5672 barringer street#address,address,5672 barringer street
+1090,5672 barringer street#traffic_info,traffic_info,5672 barringer street
+1091,5672 barringer street#distance,distance,5672 barringer street
+1185,Round Table#address,address,Round Table
+1187,Round Table#traffic_info,traffic_info,Round Table
+1188,Round Table#distance,distance,Round Table
+1229,Shell#address,address,Shell
+1231,Shell#traffic_info,traffic_info,Shell
+1232,Shell#distance,distance,Shell
+1233,Cafe Venetia#address,address,Cafe Venetia
+1235,Cafe Venetia#traffic_info,traffic_info,Cafe Venetia
+1236,Cafe Venetia#distance,distance,Cafe Venetia
+1237,Comfort Inn#address,address,Comfort Inn
+1239,Comfort Inn#traffic_info,traffic_info,Comfort Inn
+1240,Comfort Inn#distance,distance,Comfort Inn
+1241,Hacienda Market#address,address,Hacienda Market
+1243,Hacienda Market#traffic_info,traffic_info,Hacienda Market
+1244,Hacienda Market#distance,distance,Hacienda Market
+1261,Webster Garage#address,address,Webster Garage
+1263,Webster Garage#traffic_info,traffic_info,Webster Garage
+1264,Webster Garage#distance,distance,Webster Garage
+1297,Pizza My Heart#address,address,Pizza My Heart
+1299,Pizza My Heart#traffic_info,traffic_info,Pizza My Heart
+1300,Pizza My Heart#distance,distance,Pizza My Heart
+1354,5677 southwest 4th street#address,address,5677 southwest 4th street
+1356,5677 southwest 4th street#traffic_info,traffic_info,5677 southwest 4th street
+1357,5677 southwest 4th street#distance,distance,5677 southwest 4th street
+1366,Stanford Childrens Health#address,address,Stanford Childrens Health
+1368,Stanford Childrens Health#traffic_info,traffic_info,Stanford Childrens Health
+1369,Stanford Childrens Health#distance,distance,Stanford Childrens Health
+1451,Civic Center Garage#address,address,Civic Center Garage
+1453,Civic Center Garage#traffic_info,traffic_info,Civic Center Garage
+1454,Civic Center Garage#distance,distance,Civic Center Garage
+1549,tennis activity#time,time,tennis activity
+1550,tennis activity#room,room,tennis activity
+1551,tennis activity#party,party,tennis activity
+1552,tennis activity#agenda,agenda,tennis activity
+1553,tennis activity#date,date,tennis activity
+1830,optometrist appointment#time,time,optometrist appointment
+1831,optometrist appointment#room,room,optometrist appointment
+1832,optometrist appointment#party,party,optometrist appointment
+1833,optometrist appointment#agenda,agenda,optometrist appointment
+1834,optometrist appointment#date,date,optometrist appointment
+2200,Coupa#address,address,Coupa
+2202,Coupa#traffic_info,traffic_info,Coupa
+2203,Coupa#distance,distance,Coupa
+2581,dentist#time,time,dentist
+2582,dentist#room,room,dentist
+2583,dentist#party,party,dentist
+2584,dentist#agenda,agenda,dentist
+2585,dentist#date,date,dentist
+3445,The Clement Hotel#address,address,The Clement Hotel
+3447,The Clement Hotel#traffic_info,traffic_info,The Clement Hotel
+3448,The Clement Hotel#distance,distance,The Clement Hotel
+6033,Travelers Lodge#address,address,Travelers Lodge
+6035,Travelers Lodge#traffic_info,traffic_info,Travelers Lodge
+6036,Travelers Lodge#distance,distance,Travelers Lodge

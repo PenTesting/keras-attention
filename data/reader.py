@@ -3,6 +3,8 @@ import csv
 import random
 
 import numpy as np
+import pandas as pd
+#f=open("./dialogue_key_value/kvret_train_public.json")
 from keras.utils.np_utils import to_categorical
 from keras.preprocessing.text import Tokenizer
 from nltk.tokenize import word_tokenize
@@ -13,6 +15,7 @@ random.seed(1984)
 INPUT_PADDING = 50
 OUTPUT_PADDING = 100
 _buckets = [(5,5),(10,10),(15, 15), (20, 20), (25, 25),(40,40)]
+
 
 class Vocabulary(object):
 
@@ -82,9 +85,10 @@ class Vocabulary(object):
         return tokens
 
 
+
 class Data(object):
 
-    def __init__(self, file_name, input_vocabulary, output_vocabulary):
+    def __init__(self, file_name,input_vocabulary, output_vocabulary):
         """
             Creates an object that gets data from a file
             :param file_name: name of the file to read from
@@ -97,6 +101,7 @@ class Data(object):
         self.input_vocabulary = input_vocabulary
         self.output_vocabulary = output_vocabulary
         self.file_name = file_name
+       
 
     def load(self):
         """
@@ -130,21 +135,12 @@ class Data(object):
         """
         # @TODO: use `pool.map_async` here?
         
-        '''self.inputs = np.array(list(
-            map(self.input_vocabulary.string_to_int, self.inputs)))
 
-        self.targets = np.array(list(map(self.output_vocabulary.string_to_int, self.targets)))
-        x=list(map(
-                lambda x: to_categorical(
-                    x,
-                    num_classes=self.output_vocabulary.size()+1),
-                self.targets))
-        self.targets = np.array(x)'''
         self.inputs=np.array(self.data_buckets[bucket_id])[:,0]
         self.targets=np.array(self.data_buckets[bucket_id])[:,1]
         self.targets = np.array(list(map(lambda x: to_categorical(x, num_classes=self.output_vocabulary.size()), self.targets)))
 
-        #print(self.inputs.shape,self.targets.shape)
+        print(self.inputs.shape,self.targets.shape)
         #assert len(self.inputs.shape) == 2, 'Inputs could not properly be encoded'
         #assert len(self.targets.shape) == 3, 'Targets could not properly be encoded'
 
@@ -157,17 +153,9 @@ class Data(object):
 
         while True:
             try:
-
-                #print(np.array(data_buckets[bucket_id][:, 0])[batch_ids], targets.shape)
-                #bucket_id=random.randint(0,len(_buckets)-1)
-                #print(bucket_id,_buckets[bucket_id],len(self.data_buckets[bucket_id]))
                 instance_id = range(len(self.inputs))
                 batch_ids = random.sample(instance_id, batch_size)
-                #targets=np.array(np.array(self.data_buckets[bucket_id])[:, 1])[batch_ids]
-                #targets = np.array(list(map(lambda x: to_categorical(x,num_classes=self.output_vocabulary.size()),targets)))
-                #print(np.array(np.array(self.data_buckets[bucket_id])[:,0])[batch_ids].shape,np.array(targets).shape)
                 yield (np.array(self.inputs[batch_ids], dtype=int),np.array(self.targets[batch_ids]))
-                #yield (np.array(np.array(self.data_buckets[bucket_id])[:,0])[batch_ids],np.array(targets))
             except Exception as e:
                 print('EXCEPTION OMG')
                 print(e)

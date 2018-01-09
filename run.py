@@ -53,7 +53,7 @@ def main(args):
         print(output_vocab.size())
         #print(input_vocab.size(), output_vocab.size())
         #print(_buckets[bucket_id][0])
-        inputs,outputs = simpleNMT(pad_length=_buckets[bucket_id][0],
+        model = simpleNMT(pad_length=_buckets[bucket_id][0],
                           n_chars=input_vocab.size(),
                           n_labels=output_vocab.size(),
                           embedding_learnable=False,
@@ -62,8 +62,8 @@ def main(args):
                           trainable=True,
                           return_probabilities=False)
 
-        model=Model(inputs=inputs,outputs=outputs)
-        print(inputs.shape,outputs.shape)
+        #model=Model(inputs=inputs,outputs=outputs)
+        #print(inputs.shape,outputs.shape)
         model.summary()
         model.compile(optimizer='adam',
                       loss='categorical_crossentropy',

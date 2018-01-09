@@ -308,8 +308,9 @@ if __name__ == '__main__':
     from keras.layers import Input, LSTM
     from keras.models import Model
     from keras.layers.wrappers import Bidirectional
-    i = Input(shape=(100,104), dtype='float32')
+    i = Input(shape=(50,104), dtype='float32')
+    enc1=LSTM(32,return_sequences=True)(i)
     enc = Bidirectional(LSTM(64, return_sequences=True), merge_mode='concat')(i)
     dec = AttentionDecoder(32, 4)(enc)
-    model = Model(inputs=i, outputs=dec)
+    model = Model(inputs=i, outputs=[dec,enc1])
     model.summary()

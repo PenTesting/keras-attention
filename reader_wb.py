@@ -158,7 +158,7 @@ class Data(object):
             except Exception as e:
                 print('EXCEPTION OMG')
                 print(e)
-                yield None, None
+                yield None, None,None
 
 if __name__ == '__main__':
     input_vocab = Vocabulary('./data/vocabulary_drive.json', padding=40)
@@ -169,13 +169,14 @@ if __name__ == '__main__':
     g = ds.generator(32)
     ds.load()
     ds.transform()
-    print(ds.inputs.shape)
+    #print(ds.targets.shape)
+    '''print(ds.inputs.shape)
     print(ds.targets.shape)
-
     print(ds.targets[0])
     print(ds.inputs[[5,10, 12]].shape)
-    print(ds.targets[[5,10,12]].shape)
+    print(ds.targets[[5,10,12]].shape)'''
     for i in range(50):
-         print((next(g)[0]))
-         print((next(g)[1]))
+         print(next(g)[1].shape)
+         print(output_vocab.int_to_string(list(next(g)[0])))
+         print(output_vocab.int_to_string(list(next(g)[1])))
          break

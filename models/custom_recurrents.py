@@ -236,6 +236,8 @@ class AttentionDecoder(Recurrent):
 
         # calculate the attention probabilities
         # this relates how much other timesteps contributed to this one.
+        #_Wxstm - decoder state
+        #_uxpb - encoder state
         et = K.dot(activations.tanh(_Wxstm + self._uxpb),
                    K.expand_dims(self.V_a))
         at = K.exp(et)

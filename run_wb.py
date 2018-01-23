@@ -64,7 +64,7 @@ def main(args):
 
     try:
         model.fit_generator(generator=training.generator(args.batch_size),
-                            steps_per_epoch=10,
+                            steps_per_epoch=100,
                             validation_data=validation.generator(args.batch_size),
                             validation_steps=10,
                             callbacks=[cp],
@@ -85,7 +85,7 @@ if __name__ == '__main__':
 
     named_args.add_argument('-e', '--epochs', metavar='|',
                             help="""Number of Epochs to Run""",
-                            required=False, default=2, type=int)
+                            required=False, default=20, type=int)
 
     named_args.add_argument('-g', '--gpu', metavar='|',
                             help="""GPU to use""",
@@ -97,15 +97,15 @@ if __name__ == '__main__':
 
     named_args.add_argument('-t', '--training-data', metavar='|',
                             help="""Location of training data""",
-                            required=False, default='./data/training_complete.csv')
+                            required=False, default='./data/training_complete1.csv')
 
     named_args.add_argument('-v', '--validation-data', metavar='|',
                             help="""Location of validation data""",
-                            required=False, default='./data/validation_complete.csv')
+                            required=False, default='./data/validation_complete1.csv')
 
     named_args.add_argument('-b', '--batch-size', metavar='|',
                             help="""Location of validation data""",
-                            required=False, default=16, type=int)
+                            required=False, default=20, type=int)
     args = parser.parse_args()
     print(args)
     main(args)

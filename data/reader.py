@@ -64,7 +64,7 @@ class Vocabulary(object):
         # pad:
         if self.padding and len(integers) < self.padding:
             integers.reverse()
-            integers.extend([self.vocabulary['<unk>']]
+            integers.extend([self.vocabulary['<pad>']]
                             * (self.padding - len(integers)))
             integers.reverse()
 

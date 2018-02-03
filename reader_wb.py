@@ -42,8 +42,8 @@ class Vocabulary(object):
             representation
             :param text: text to convert
         """
-        tokens = word_tokenize(text)
-
+        tokens = text.split(" ")
+        #print(tokens)
         integers = []
 
         if self.padding and len(tokens) >= self.padding:
@@ -62,7 +62,7 @@ class Vocabulary(object):
         # pad:
         if self.padding and len(integers) < self.padding:
             integers.reverse()
-            integers.extend([self.vocabulary['<unk>']]
+            integers.extend([self.vocabulary['<pad>']]
                             * (self.padding - len(integers)))
             integers.reverse()
 
@@ -118,8 +118,9 @@ class Data(object):
         with open(self.file_name, 'r',encoding='utf-8') as f:
             reader = csv.reader(f)
             for row in reader:
-                self.inputs.append(row[1])
-                self.targets.append(row[2])
+                #print(row[1],row[2])
+                self.inputs.append(row[0])
+                self.targets.append(row[1])
 
 
     def transform(self):
@@ -164,11 +165,13 @@ if __name__ == '__main__':
     input_vocab = Vocabulary('./data/vocabulary_drive.json', padding=40)
     output_vocab = Vocabulary('./data/vocabulary_drive.json', padding=40)
     kb_vocabulary = Vocabulary('./data/vocabulary_drive.json', padding=4)
-    ds = Data('./data/training_drive.csv', input_vocab, output_vocab,kb_vocabulary)
+    #print(output_vocab.string_to_int("find starbucks <eos>"))
+    ds = Data('./data/training_complete1.csv', input_vocab, output_vocab,kb_vocabulary)
     ds.kb_out()
     g = ds.generator(32)
     ds.load()
     ds.transform()
+    print(output_vocab.string_to_int("find starbucks <eos>"))
     #print(ds.targets.shape)
     '''print(ds.inputs.shape)
     print(ds.targets.shape)

@@ -76,7 +76,7 @@ def main(args):
 
         try:
             model.fit_generator(generator=training.generator(args.batch_size,bucket_id),
-                                steps_per_epoch=100,
+                                steps_per_epoch=50,
                                 validation_data=validation.generator(args.batch_size,bucket_id),
                                 validation_steps=5,
                                 callbacks=[cp],
@@ -101,7 +101,7 @@ if __name__ == '__main__':
 
     named_args.add_argument('-e', '--epochs', metavar='|',
                             help="""Number of Epochs to Run""",
-                            required=False, default=40, type=int)
+                            required=False, default=20, type=int)
 
     named_args.add_argument('-g', '--gpu', metavar='|',
                             help="""GPU to use""",

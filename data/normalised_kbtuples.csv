@@ -1,77 +1,77 @@
 ,object,relation,subject
 0,Dish Parking#address,address,Dish Parking
 1,parking garage#poi,poi,parking garage
-2,Dish Parking#traffic_info,traffic_info,Dish Parking
+2,Dish Parking#traffic info,traffic info,Dish Parking
 3,Dish Parking#distance,distance,Dish Parking
 4,Stanford Oval Parking#address,address,Stanford Oval Parking
-6,Stanford Oval Parking#traffic_info,traffic_info,Stanford Oval Parking
+6,Stanford Oval Parking#traffic info,traffic info,Stanford Oval Parking
 7,Stanford Oval Parking#distance,distance,Stanford Oval Parking
 8,Willows Market#address,address,Willows Market
 9,grocery store#poi,poi,grocery store
-10,Willows Market#traffic_info,traffic_info,Willows Market
+10,Willows Market#traffic info,traffic info,Willows Market
 11,Willows Market#distance,distance,Willows Market
 12,The Westin#address,address,The Westin
 13,rest stop#poi,poi,rest stop
-14,The Westin#traffic_info,traffic_info,The Westin
+14,The Westin#traffic info,traffic info,The Westin
 15,The Westin#distance,distance,The Westin
 16,toms house#address,address,toms house
 17,friends house#poi,poi,friends house
-18,toms house#traffic_info,traffic_info,toms house
+18,toms house#traffic info,traffic info,toms house
 19,toms house#distance,distance,toms house
 20,Pizza Chicago#address,address,Pizza Chicago
 21,pizza restaurant#poi,poi,pizza restaurant
-22,Pizza Chicago#traffic_info,traffic_info,Pizza Chicago
+22,Pizza Chicago#traffic info,traffic info,Pizza Chicago
 23,Pizza Chicago#distance,distance,Pizza Chicago
 24,Valero#address,address,Valero
 25,gas station#poi,poi,gas station
-26,Valero#traffic_info,traffic_info,Valero
+26,Valero#traffic info,traffic info,Valero
 27,Valero#distance,distance,Valero
 28,Mandarin Roots#address,address,Mandarin Roots
 29,chinese restaurant#poi,poi,chinese restaurant
-30,Mandarin Roots#traffic_info,traffic_info,Mandarin Roots
+30,Mandarin Roots#traffic info,traffic info,Mandarin Roots
 31,Mandarin Roots#distance,distance,Mandarin Roots
 32,Town and Country#address,address,Town and Country
 33,shopping center#poi,poi,shopping center
-34,Town and Country#traffic_info,traffic_info,Town and Country
+34,Town and Country#traffic info,traffic info,Town and Country
 35,Town and Country#distance,distance,Town and Country
 36,76#address,address,76
-38,76#traffic_info,traffic_info,76
+38,76#traffic info,traffic info,76
 39,76#distance,distance,76
 40,Stanford Shopping Center#address,address,Stanford Shopping Center
-42,Stanford Shopping Center#traffic_info,traffic_info,Stanford Shopping Center
+42,Stanford Shopping Center#traffic info,traffic info,Stanford Shopping Center
 43,Stanford Shopping Center#distance,distance,Stanford Shopping Center
 44,Teavana#address,address,Teavana
 45,coffee or tea place#poi,poi,coffee or tea place
-46,Teavana#traffic_info,traffic_info,Teavana
+46,Teavana#traffic info,traffic info,Teavana
 47,Teavana#distance,distance,Teavana
 48,Dominos#address,address,Dominos
-50,Dominos#traffic_info,traffic_info,Dominos
+50,Dominos#traffic info,traffic info,Dominos
 51,Dominos#distance,distance,Dominos
 52,Palo Alto Garage R#address,address,Palo Alto Garage R
-54,Palo Alto Garage R#traffic_info,traffic_info,Palo Alto Garage R
+54,Palo Alto Garage R#traffic info,traffic info,Palo Alto Garage R
 55,Palo Alto Garage R#distance,distance,Palo Alto Garage R
 56,Stanford Express Care#address,address,Stanford Express Care
 57,hospital#poi,poi,hospital
-58,Stanford Express Care#traffic_info,traffic_info,Stanford Express Care
+58,Stanford Express Care#traffic info,traffic info,Stanford Express Care
 59,Stanford Express Care#distance,distance,Stanford Express Care
 60,Palo Alto Medical Foundation#address,address,Palo Alto Medical Foundation
-62,Palo Alto Medical Foundation#traffic_info,traffic_info,Palo Alto Medical Foundation
+62,Palo Alto Medical Foundation#traffic info,traffic info,Palo Alto Medical Foundation
 63,Palo Alto Medical Foundation#distance,distance,Palo Alto Medical Foundation
 64,P.F. Changs#address,address,P.F. Changs
-66,P.F. Changs#traffic_info,traffic_info,P.F. Changs
+66,P.F. Changs#traffic info,traffic info,P.F. Changs
 67,P.F. Changs#distance,distance,P.F. Changs
 68,Ravenswood Shopping Center#address,address,Ravenswood Shopping Center
-70,Ravenswood Shopping Center#traffic_info,traffic_info,Ravenswood Shopping Center
+70,Ravenswood Shopping Center#traffic info,traffic info,Ravenswood Shopping Center
 71,Ravenswood Shopping Center#distance,distance,Ravenswood Shopping Center
 72,Chef Chu's#address,address,Chef Chu's
-74,Chef Chu's#traffic_info,traffic_info,Chef Chu's
+74,Chef Chu's#traffic info,traffic info,Chef Chu's
 75,Chef Chu's#distance,distance,Chef Chu's
 84,home#address,address,home
 85,home#poi,poi,home
-86,home#traffic_info,traffic_info,home
+86,home#traffic info,traffic info,home
 87,home#distance,distance,home
 88,Philz#address,address,Philz
-90,Philz#traffic_info,traffic_info,Philz
+90,Philz#traffic info,traffic info,Philz
 91,Philz#distance,distance,Philz
 96,dentist appointment#time,time,dentist appointment
 97,dentist appointment#room,room,dentist appointment
@@ -272,29 +272,29 @@
 418,exeter#saturday,saturday,exeter
 419,exeter#sunday,sunday,exeter
 424,Starbucks#address,address,Starbucks
-426,Starbucks#traffic_info,traffic_info,Starbucks
+426,Starbucks#traffic info,traffic info,Starbucks
 427,Starbucks#distance,distance,Starbucks
 432,5677 springer street#address,address,5677 springer street
 433,certain address#poi,poi,certain address
-434,5677 springer street#traffic_info,traffic_info,5677 springer street
+434,5677 springer street#traffic info,traffic info,5677 springer street
 435,5677 springer street#distance,distance,5677 springer street
 436,Safeway#address,address,Safeway
-438,Safeway#traffic_info,traffic_info,Safeway
+438,Safeway#traffic info,traffic info,Safeway
 439,Safeway#distance,distance,Safeway
 444,Hotel Keen#address,address,Hotel Keen
-446,Hotel Keen#traffic_info,traffic_info,Hotel Keen
+446,Hotel Keen#traffic info,traffic info,Hotel Keen
 447,Hotel Keen#distance,distance,Hotel Keen
 452,Papa Johns#address,address,Papa Johns
-454,Papa Johns#traffic_info,traffic_info,Papa Johns
+454,Papa Johns#traffic info,traffic info,Papa Johns
 455,Papa Johns#distance,distance,Papa Johns
 456,Jing Jing#address,address,Jing Jing
-458,Jing Jing#traffic_info,traffic_info,Jing Jing
+458,Jing Jing#traffic info,traffic info,Jing Jing
 459,Jing Jing#distance,distance,Jing Jing
 460,Whole Foods#address,address,Whole Foods
-462,Whole Foods#traffic_info,traffic_info,Whole Foods
+462,Whole Foods#traffic info,traffic info,Whole Foods
 463,Whole Foods#distance,distance,Whole Foods
 464,Peets Coffee#address,address,Peets Coffee
-466,Peets Coffee#traffic_info,traffic_info,Peets Coffee
+466,Peets Coffee#traffic info,traffic info,Peets Coffee
 467,Peets Coffee#distance,distance,Peets Coffee
 485,meeting#time,time,meeting
 486,meeting#room,room,meeting
@@ -335,40 +335,40 @@
 733,downtown chicago#saturday,saturday,downtown chicago
 734,downtown chicago#sunday,sunday,downtown chicago
 788,Pizza Hut#address,address,Pizza Hut
-790,Pizza Hut#traffic_info,traffic_info,Pizza Hut
+790,Pizza Hut#traffic info,traffic info,Pizza Hut
 791,Pizza Hut#distance,distance,Pizza Hut
 792,Four Seasons#address,address,Four Seasons
-794,Four Seasons#traffic_info,traffic_info,Four Seasons
+794,Four Seasons#traffic info,traffic info,Four Seasons
 795,Four Seasons#distance,distance,Four Seasons
 804,Trader Joes#address,address,Trader Joes
-806,Trader Joes#traffic_info,traffic_info,Trader Joes
+806,Trader Joes#traffic info,traffic info,Trader Joes
 807,Trader Joes#distance,distance,Trader Joes
 808,tai pan#address,address,tai pan
-810,tai pan#traffic_info,traffic_info,tai pan
+810,tai pan#traffic info,traffic info,tai pan
 811,tai pan#distance,distance,tai pan
 812,Sigona Farmers Market#address,address,Sigona Farmers Market
-814,Sigona Farmers Market#traffic_info,traffic_info,Sigona Farmers Market
+814,Sigona Farmers Market#traffic info,traffic info,Sigona Farmers Market
 815,Sigona Farmers Market#distance,distance,Sigona Farmers Market
 925,Midtown Shopping Center#address,address,Midtown Shopping Center
-927,Midtown Shopping Center#traffic_info,traffic_info,Midtown Shopping Center
+927,Midtown Shopping Center#traffic info,traffic info,Midtown Shopping Center
 928,Midtown Shopping Center#distance,distance,Midtown Shopping Center
 933,jills house#address,address,jills house
-935,jills house#traffic_info,traffic_info,jills house
+935,jills house#traffic info,traffic info,jills house
 936,jills house#distance,distance,jills house
 937,Palo Alto Cafe#address,address,Palo Alto Cafe
-939,Palo Alto Cafe#traffic_info,traffic_info,Palo Alto Cafe
+939,Palo Alto Cafe#traffic info,traffic info,Palo Alto Cafe
 940,Palo Alto Cafe#distance,distance,Palo Alto Cafe
 941,Topanga Mall#address,address,Topanga Mall
-943,Topanga Mall#traffic_info,traffic_info,Topanga Mall
+943,Topanga Mall#traffic info,traffic info,Topanga Mall
 944,Topanga Mall#distance,distance,Topanga Mall
 949,Panda Express#address,address,Panda Express
-951,Panda Express#traffic_info,traffic_info,Panda Express
+951,Panda Express#traffic info,traffic info,Panda Express
 952,Panda Express#distance,distance,Panda Express
 957,Chevron#address,address,Chevron
-959,Chevron#traffic_info,traffic_info,Chevron
+959,Chevron#traffic info,traffic info,Chevron
 960,Chevron#distance,distance,Chevron
 961,jacks house#address,address,jacks house
-963,jacks house#traffic_info,traffic_info,jacks house
+963,jacks house#traffic info,traffic info,jacks house
 964,jacks house#distance,distance,jacks house
 1014,swimming activity#time,time,swimming activity
 1015,swimming activity#room,room,swimming activity
@@ -386,37 +386,37 @@
 1042,conference#agenda,agenda,conference
 1043,conference#date,date,conference
 1088,5672 barringer street#address,address,5672 barringer street
-1090,5672 barringer street#traffic_info,traffic_info,5672 barringer street
+1090,5672 barringer street#traffic info,traffic info,5672 barringer street
 1091,5672 barringer street#distance,distance,5672 barringer street
 1185,Round Table#address,address,Round Table
-1187,Round Table#traffic_info,traffic_info,Round Table
+1187,Round Table#traffic info,traffic info,Round Table
 1188,Round Table#distance,distance,Round Table
 1229,Shell#address,address,Shell
-1231,Shell#traffic_info,traffic_info,Shell
+1231,Shell#traffic info,traffic info,Shell
 1232,Shell#distance,distance,Shell
 1233,Cafe Venetia#address,address,Cafe Venetia
-1235,Cafe Venetia#traffic_info,traffic_info,Cafe Venetia
+1235,Cafe Venetia#traffic info,traffic info,Cafe Venetia
 1236,Cafe Venetia#distance,distance,Cafe Venetia
 1237,Comfort Inn#address,address,Comfort Inn
-1239,Comfort Inn#traffic_info,traffic_info,Comfort Inn
+1239,Comfort Inn#traffic info,traffic info,Comfort Inn
 1240,Comfort Inn#distance,distance,Comfort Inn
 1241,Hacienda Market#address,address,Hacienda Market
-1243,Hacienda Market#traffic_info,traffic_info,Hacienda Market
+1243,Hacienda Market#traffic info,traffic info,Hacienda Market
 1244,Hacienda Market#distance,distance,Hacienda Market
 1261,Webster Garage#address,address,Webster Garage
-1263,Webster Garage#traffic_info,traffic_info,Webster Garage
+1263,Webster Garage#traffic info,traffic info,Webster Garage
 1264,Webster Garage#distance,distance,Webster Garage
 1297,Pizza My Heart#address,address,Pizza My Heart
-1299,Pizza My Heart#traffic_info,traffic_info,Pizza My Heart
+1299,Pizza My Heart#traffic info,traffic info,Pizza My Heart
 1300,Pizza My Heart#distance,distance,Pizza My Heart
 1354,5677 southwest 4th street#address,address,5677 southwest 4th street
-1356,5677 southwest 4th street#traffic_info,traffic_info,5677 southwest 4th street
+1356,5677 southwest 4th street#traffic info,traffic info,5677 southwest 4th street
 1357,5677 southwest 4th street#distance,distance,5677 southwest 4th street
 1366,Stanford Childrens Health#address,address,Stanford Childrens Health
-1368,Stanford Childrens Health#traffic_info,traffic_info,Stanford Childrens Health
+1368,Stanford Childrens Health#traffic info,traffic info,Stanford Childrens Health
 1369,Stanford Childrens Health#distance,distance,Stanford Childrens Health
 1451,Civic Center Garage#address,address,Civic Center Garage
-1453,Civic Center Garage#traffic_info,traffic_info,Civic Center Garage
+1453,Civic Center Garage#traffic info,traffic info,Civic Center Garage
 1454,Civic Center Garage#distance,distance,Civic Center Garage
 1549,tennis activity#time,time,tennis activity
 1550,tennis activity#room,room,tennis activity
@@ -429,7 +429,7 @@
 1833,optometrist appointment#agenda,agenda,optometrist appointment
 1834,optometrist appointment#date,date,optometrist appointment
 2200,Coupa#address,address,Coupa
-2202,Coupa#traffic_info,traffic_info,Coupa
+2202,Coupa#traffic info,traffic info,Coupa
 2203,Coupa#distance,distance,Coupa
 2581,dentist#time,time,dentist
 2582,dentist#room,room,dentist
@@ -437,8 +437,8 @@
 2584,dentist#agenda,agenda,dentist
 2585,dentist#date,date,dentist
 3445,The Clement Hotel#address,address,The Clement Hotel
-3447,The Clement Hotel#traffic_info,traffic_info,The Clement Hotel
+3447,The Clement Hotel#traffic info,traffic info,The Clement Hotel
 3448,The Clement Hotel#distance,distance,The Clement Hotel
 6033,Travelers Lodge#address,address,Travelers Lodge
-6035,Travelers Lodge#traffic_info,traffic_info,Travelers Lodge
+6035,Travelers Lodge#traffic info,traffic info,Travelers Lodge
 6036,Travelers Lodge#distance,distance,Travelers Lodge

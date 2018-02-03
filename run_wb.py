@@ -6,8 +6,7 @@ import os
 import argparse
 
 from keras.callbacks import ModelCheckpoint
-
-from models.NMT import simpleNMT
+from models.NMT_wb import simpleNMT
 from reader_wb import Data,Vocabulary
 from utils.metrics import all_acc
 #from utils.examples import run_examples
@@ -28,10 +27,10 @@ def main(args):
     os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"   # see issue #152
     os.environ["CUDA_VISIBLE_DEVICES"] = args.gpu
     # Dataset functions
-    input_vocab = Vocabulary('./data/vocabulary_drive.json', padding=args.padding)
+    input_vocab = Vocabulary('./data/vocabulary_inckbtup.json', padding=args.padding)
     output_vocab = Vocabulary('./data/vocabulary_inckbtup.json',
                               padding=args.padding)
-    kb_vocab=Vocabulary('./data/vocabulary_drive.json',
+    kb_vocab=Vocabulary('./data/vocabulary_inckbtup.json',
                               padding=4)
     print('Loading datasets.')
 
@@ -48,7 +47,7 @@ def main(args):
     model = simpleNMT(pad_length=args.padding,
                       batch_size=args.batch_size,
                       n_chars=input_vocab.size(),
-                      n_labels=input_vocab.size(),
+                      n_labels=1523,
                       embedding_learnable=True,
                       encoder_units=256,
                       decoder_units=256,
@@ -64,7 +63,7 @@ def main(args):
 
     try:
         model.fit_generator(generator=training.generator(args.batch_size),
-                            steps_per_epoch=100,
+                            steps_per_epoch=50,
                             validation_data=validation.generator(args.batch_size),
                             validation_steps=10,
                             callbacks=[cp],
@@ -74,6 +73,7 @@ def main(args):
 
     except KeyboardInterrupt as e:
         print('Model training stopped early.')
+    model.save_weights("model_weights.hdf5")
 
     print('Model training complete.')
 
@@ -85,23 +85,23 @@ if __name__ == '__main__':
 
     named_args.add_argument('-e', '--epochs', metavar='|',
                             help="""Number of Epochs to Run""",
-                            required=False, default=20, type=int)
+                            required=False, default=40, type=int)
 
     named_args.add_argument('-g', '--gpu', metavar='|',
                             help="""GPU to use""",
-                            required=False, default='0', type=str)
+                            required=False, default='1', type=str)
 
     named_args.add_argument('-p', '--padding', metavar='|',
                             help="""Amount of padding to use""",
-                            required=False, default=40, type=int)
+                            required=False, default=20, type=int)
 
     named_args.add_argument('-t', '--training-data', metavar='|',
                             help="""Location of training data""",
-                            required=False, default='./data/training_complete1.csv')
+                            required=False, default='./data/train_append.csv')
 
     named_args.add_argument('-v', '--validation-data', metavar='|',
                             help="""Location of validation data""",
-                            required=False, default='./data/validation_complete1.csv')
+                            required=False, default='./data/val_append.csv')
 
     named_args.add_argument('-b', '--batch-size', metavar='|',
                             help="""Location of validation data""",

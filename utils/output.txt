@@ -1,0 +1,810 @@
+Actual_output,Predicted_Output
+what time do you need to take your pills?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+ok setting your medicine appointment for 7pm,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date <unk> <eos>
+there is a chevron.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> is is <unk> <eos>
+taking you to chevron.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <eos>
+783 arcadia pl is the address for chevron gas station,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <eos>
+you're welcome, happy to help.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <eos>
+what city should i find friday's temperature for?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you you the the weather <unk> <eos>
+on friday there will be clear skies in alhambra,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lows lows lows lows lab_appointment#date in in <unk> <eos>
+it will be between 20-30f in alhambra on friday.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date <unk> <eos>
+you're welcome.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date <unk> <eos>
+there are whole foods 2 miles away and sigona farmers market 4 miles away. where do we go?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> lab_appointment#date lab_appointment#date <unk> <unk> <eos>
+sigona farmers market is located 4 miles away with no traffic. it's located at 638 amherst st.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+great, glad i could help. have a great day. we will be there soon.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+the weather in fresno over the next 48 hours will be cloudy with snow.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date lab_appointment#date lab_appointment#date cleat cleat cleat lab_appointment#date lab_appointment#date <unk> <unk>
+you are welcome,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you're <unk> <eos>
+home is where is your heart is, at 56 cadwell street,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> lab_appointment#date lab_appointment#date <unk> <unk> <eos>
+you are 3 miles away from home with heavy traffic noted.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <eos>
+you are welcome driver!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <eos>
+glad to help,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <eos>
+we are 4 miles away from whole foods and from safeway: which one do you prefer?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> lab_appointment#date lab_appointment#date <unk> <unk> <eos>
+safeway is located at 452 arcadia pl.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <eos>
+you're all set, drive carefully!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <eos>
+we're 3 miles away from willows market but there is a car collision nearby,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> lab_appointment#date lab_appointment#date <unk> <unk> <eos>
+i'm sorry but there are no other options nearby,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+ok driver, making a route to willows market and avoiding the car accident.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+you are welcome driver!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+jill's house is located 5 miles away at 347 alta mesa avenue.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date is lab_appointment#date <unk> <eos>
+sorry i didn't get that.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date <unk> <unk> <eos>
+the quickest route is 347 alta mesa ave. at 5 miles. we will be there shortly.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you're <unk> <eos>
+you're welcome!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you're <unk> <eos>
+it will be 80f on tuesday in brentwood.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date lab_appointment#date lab_appointment#date lab_appointment#date in in in <unk> <eos>
+you're very welcome!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <eos>
+okay, scheduling friday dinner with mom at 11 am.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date lab_appointment#date lab_appointment#date lab_appointment#date <unk> <unk> <unk>
+you are welcome.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you're <unk>
+your dinner is 5pm tonight.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> is lab_appointment#date <unk> <unk>
+the closest parking garage is civic center garage, located 4 miles away at 270 altaire walk.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> is is is <unk> <eos>
+you're welcome.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <eos>
+i've set the gps to stanford shopping center, 773 alger dr, it's 2 miles away,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> is is is is is <unk> <unk> <eos>
+you're welcome,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+stanford express care is at 214 el camino real.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> is is <unk> <unk> <eos>
+good day,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you're <unk> <eos>
+where should i check for snow?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> city city you you lab_appointment#date lab_appointment#date <unk> <eos>
+there will be no snow in corona this week.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date lab_appointment#date lab_appointment#date lab_appointment#date in in <unk> <eos>
+no problem my driver!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you're <unk> <eos>
+what time shall i set a dinner reminder?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date lab_appointment#date lab_appointment#date <unk> <unk>
+i will set a reminder for dinner at 7 pm, for the 6th of this month with marie.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk>
+you are welcome,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk>
+it will not be warm in compton on wednesday.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> it lab_appointment#date lab_appointment#date lab_appointment#date in in in <unk> <eos>
+anytime.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <eos>
+reminder for football on the 11th of this month at 1pm with marie is set.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date with with with with with with <unk> <unk>
+anytime.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk>
+what time would like me to set the appointment?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> time time lab_appointment#date lab_appointment#date <unk> <unk>
+okay i set your appointment for 3pm on saturday. have a good time!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <eos>
+valero is 4 miles away.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date is is <unk> <eos>
+valero is at 200 alester avenue.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> is is <unk> <eos>
+i sent the best possible route on screen but there will be heavy traffic anyway, i'm sorry,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <eos>
+you're welcome!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <eos>
+your friends house is on 5677 southwest 4th street, there is moderate traffic on our way but we're just 1 miles away,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> lab_appointment#date lab_appointment#date lab_appointment#date <unk> <unk> <eos>
+it must have been a hard day for you if you don't remember the address of your home.. 56 cadwell street, i was kidding, don't crash me, please,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you're <unk> <eos>
+you're welcome!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you're <unk> <eos>
+we're 3 miles away from midtown shopping center and there is no traffic on our way,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> is <unk> <unk> <eos>
+you got it, gps set.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+no problem!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+tell me what city you would like to know about snow today?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date lab_appointment#date the <unk> <unk> <eos>
+it will not snow in cleveland today.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date <unk> <unk> <eos>
+you are welcome.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date <unk> <unk> <eos>
+we're 5 miles away from starbucks: would you like to go there?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> is is is is <unk> <eos>
+navigating you to starbucks.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+the address is 792 bedoin street, i sent the info on your screen, drive carefully!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+okay, scheduling a conference with the sales team at 9am on the 11th of this month.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date lab_appointment#date with lab_appointment#date lab_appointment#date lab_appointment#date on on with <unk> <unk>
+you are welcome.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <eos>
+are you talking about the doctor appointment on wednesday or the one on the 5th?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> your with <unk> <unk> <unk> <unk> with <unk> <unk>
+your doctor appointment on wednesday is at 7pm with your father.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <eos>
+your doctors appointment on the 5th is at 6pm with alex.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <eos>
+in what city are you interested?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> city city you you the weather <unk> <eos>
+in los angeles, it will rain today and be 40-60f.  tomorrow, it will be warm and 60-80f.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date lab_appointment#date lab_appointment#date lab_appointment#date lab_appointment#date lab_appointment#date lab_appointment#date lab_appointment#date <unk> <unk>
+no problem.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date los los
+there is the midtown shopping center 3 miles away and no traffic on the route: set this destination on your gps?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> is is is is <unk> <unk> <eos>
+setting gps to midtown shopping center. anything else?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+no problem!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+hacienda market is the closest grocery store 1 mile away,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> is is is <unk> <eos>
+setting navigation to 1313 chester ave now. there is a road block nearby, so drive carefully.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+no problem,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+for what city?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you you the the the <unk> <unk> <eos>
+in downtown chicago it will be humid on monday, snow on tueday, dry on wednesday, frost on thursday, drizzle on friday, clear skies on saturday and sunday,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> with with with with lows lows lab_appointment#date lab_appointment#date lab_appointment#date lab_appointment#date <unk> <eos>
+you are welcome!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you're <unk> <eos>
+your tennis activity is on the 4th at 5 pm and your sister will be attending.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> your is is is is at <unk> <eos>
+you're welcome,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date <unk> <eos>
+schedule a meeting for what time and day?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> the the meeting <unk>
+setting meeting for saturday at 1pm with sales team to go over budget.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date <unk> <eos>
+my pleasure.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date <unk> <eos>
+what city would you like to know the weather about?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> city city you want the weather <unk> <eos>
+it is not predicted to drizzle any today or tomorrow in durham.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+anytime,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+what city do you want to hear the forecast for?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> city city you you the forecast <unk> <eos>
+it will be overcast today and stormy tomorrow in mountain view.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <eos>
+you're welcome!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <unk> <eos>
+what location should i look up the weekly forecast for?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> city you you want the weather <unk> <eos>
+it should not be hot in brentwood this week.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+you're welcome!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+the nearest one is palo alto garage r, it's just 1 miles away,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> is is <unk> <eos>
+you're welcome!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+there will be no drizzle in redwood city this weekend.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date lab_appointment#date lab_appointment#date in in in <unk> <eos>
+no problem!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <eos>
+taking you home.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date lab_appointment#date lab_appointment#date <unk> <unk> <eos>
+home is 5671 barringer street. anything else i can help you with?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> is is lab_appointment#date <unk> <eos>
+got it, will do!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <eos>
+you're welcome. i am always happy to help.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <eos>
+at what time should i set the appointment?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> time time lab_appointment#date lab_appointment#date <unk> <unk>
+i have made an appointment for the doctor on the 12th at 7 pm.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk>
+you are welcome,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk>
+what city are you interested in?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> city city you the the weather <unk> <eos>
+the temperature in compton will be between 70f and 100f on monday and friday. during the other days of the week it will remain between 30f and 70f,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date lab_appointment#date lab_appointment#date lab_appointment#date lab_appointment#date lab_appointment#date <unk> <unk> <eos>
+you're very welcome.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+on friday, the highest temperature in mountain view is predicted to be 50f,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <eos>
+anytime,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you're <unk> <eos>
+okay, i will remind you of your yoga activity with your mother scheduled on the 15th of this month.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk>
+setting reminder for yoga activity with your mother on the 15th at 3pm,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk>
+your next tennis activity is on the 4th at 5pm with your mother.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> your with with with with with with with with <unk>
+glad i can help.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk>
+stanford express care is on the way.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <eos>
+navigating to stanford express care at 214 el camino real. there is heavy traffic on the way there, however.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <eos>
+you're very welcome.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <eos>
+i will promptly schedule a swimming activity on monday the 1st with your father at 4pm.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date lab_appointment#date at with at at <unk>
+you're welcome.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you're <unk>
+dew is predicted in danville on thursday,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date lab_appointment#date in in lab_appointment#date <unk> <eos>
+anytime!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <eos>
+durham does not have any snow predicted this week.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> it lab_appointment#date lab_appointment#date lab_appointment#date in in on <unk> <eos>
+you are welcome.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <eos>
+what city do you want the weather for?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you you want the weather <unk> <eos>
+this week in cleveland the weather will be clear skies on monday, dew on tuesday, stormy on wednesday, drizzle on thrusday, cloudy on friday, overcast on saturday, and raining on sunday,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <unk> <unk> in <unk> <unk> <eos>
+you're very welcome!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+it will be dry wednesday in new york.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date lab_appointment#date lab_appointment#date in in in <unk> <unk> <eos>
+no problem.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <eos>
+for what day would you like to know?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <eos>
+this week in seattle the weather is forecasted to be overcast, cloudy, windy, foggy, drzzle, warm ,and dry,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+you're welcome.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+chef chu's is the only chinese restaurant but here is heavy traffic.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> is is is is <unk> <eos>
+chef chu's is at 593 arrowhead way.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <eos>
+there will be heavy traffic sorry.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <eos>
+you're welcome!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <eos>
+chef chu's is 5 miles away.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> is is <unk> <unk> <eos>
+there is currently no traffic.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+gps set, happy to assist you.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+for what city would you like to know that?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> city city city you the the weather <unk> <eos>
+it will be rainy the first half of the week and then foggy the second and dry over the weekend in compton.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you're <unk> <eos>
+you're welcome.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you're <unk> <eos>
+it will not be humid in fresno next week.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> will be be lab_appointment#date in in on <unk> <eos>
+anytime!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <eos>
+you have 4 doctor appointments scheduled: marie on the 15th, your brother on wednesday, your mother on the 20th, and ana on the 12th.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> at at at another another another on on at <unk> <unk>
+my pleasure, goodbye.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <eos>
+your tennis match is tuesday at 11am.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> your is is is is at at <eos>
+you're very welcome.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk>
+for which one? i have two, one at 7pm the 8th and one at 10am the 1st.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> at at on on on on at at <unk>
+you're welcome.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk>
+what location do you want me to check if it will be rainy?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> city you you the lab_appointment#date <unk> <eos>
+next week it will rain on saturday in los angeles,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> los los <eos>
+anytime.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> los los <eos>
+it will not be warm in grand rapids on saturday.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date lab_appointment#date lab_appointment#date in on <unk> <unk> <eos>
+you are welcome.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <eos>
+no problem.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <eos>
+there is a panda express 3 miles from you as well as a pizza hut 5 miles from you.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> lab_appointment#date <unk> <unk> <unk> <eos>
+panda express is at 842 arrowhead way with no traffic noted.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+i sent the info on your map, drive carefully!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+what city do you want the weather for?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you the the weather <unk> <eos>
+it will be dry other than sunday, and the temperatures are expected to be between 70-100f monday and tuesday, 30-40f wednesday, 40-60f thursday, and 80-100 friday to sunday.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> in in <unk> <unk> <eos>
+you are welcome.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+it appears as if there will be a low of 40f and a high of 50f.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date lab_appointment#date lab_appointment#date lab_appointment#date lab_appointment#date lab_appointment#date lab_appointment#date <unk> <unk> <eos>
+you're welcome!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <eos>
+today you have a 7pm meeting with hr to discuss the merger.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date <unk> <unk> <eos>
+you are welcome.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk>
+for what city would you like today and tomorrow's weather for?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> city city you want the weather <unk> <eos>
+it will not be foggy in fresno in the coming days.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+you're welcome,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+it will not drizzle in cleveland tomorrow.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> will be lab_appointment#date in in on <unk> <eos>
+no problem.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <eos>
+what days are you interested in?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you the the <unk> <unk> <eos>
+it will be stormy on monday, the lowest temperature on tuesday, hot on wednesday, the hottest temperatures on thursday and friday, snow on saturday, and clear skies on sunday in durham.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+you are welcome.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+conference scheduled for the 5th at 11am with the vice president.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date with with with with with with with <unk>
+have a good day.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk>
+you have a dentist appointment on friday at 7 pm.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> appointment appointment is is at <unk> <eos>
+you're welcome.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+you will find pizza chicago at 915 arbol dr. it is 2 miles away without any traffic,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+fastest route being programmed for pizza chicago.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+you're welcome!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+here are directions to 5672 barringer street.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you you you you you <unk> <unk> <eos>
+the only route has heavy traffic, is that alright?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> your lab_appointment#date lab_appointment#date lab_appointment#date lab_appointment#date lab_appointment#date at <unk> <eos>
+directing to 5672 barringer street now.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> your lab_appointment#date lab_appointment#date lab_appointment#date lab_appointment#date lab_appointment#date at <unk> <eos>
+you're welcome and have a great day.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> your lab_appointment#date lab_appointment#date lab_appointment#date lab_appointment#date lab_appointment#date at <unk> <eos>
+taking you home.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> is lab_appointment#date <unk> <eos>
+your address is 5671 barringer street, we're 3 miles away from home now,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you're <unk> <eos>
+your gps has been set for home.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you're <unk> <eos>
+you're welcome, happy to help.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you're <unk> <eos>
+palo alto cafe is 4 miles away and serves coffee and tea. do you want the address?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> you you <unk> <unk> <eos>
+palo alto is located at 436 alger dr.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+you're welcome!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+what city do you want the weather for?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> city you lab_appointment#date lab_appointment#date <unk> <unk> <eos>
+it won't be overcast or cloudy at all this week in carson,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+you are welcome.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+ok i've set a reminder for your doctor's appointment on the 12th at 4:50,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date lab_appointment#date lab_appointment#date lab_appointment#date at <unk> <unk>
+there is a shopping center 3 miles from you. the address is 338 alester avenue. would you like directions?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> is is is <unk> <eos>
+setting navigation to the midtown shopping center. there is a car collision nearby, so drive carefully.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+i sent the info on your screen, drive carefully!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+what city would you like the forecast for?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> city city you want the weather <unk> <eos>
+it will be dry today, snowy on tuesday, dew on wednesday, warm on thursday, misty on friday, snow on saturday and cloudy on sunday in grand rapids.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <eos>
+you're welcome!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you're <unk> <eos>
+scheduled football activity for today at 11 am with ana.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date lab_appointment#date lab_appointment#date lab_appointment#date lab_appointment#date <unk> <unk> <unk>
+no problem.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you're <unk>
+making a note for yoga at 5pm on the 12th.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date lab_appointment#date is at at <unk>
+what city shall i check for you?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you you want the weather <unk> <eos>
+today is not humid in exeter. it is stormy, low of 40f, high of 50f.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you're <unk> <eos>
+you're welcome!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you're <unk> <eos>
+there isn't any rain predicted to fall in redwood city this week,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date lab_appointment#date lab_appointment#date lab_appointment#date in <unk> <unk> <eos>
+anytime.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+what city are you interested in?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> city city city you the the forecast <unk> <eos>
+tomorrow in fresno it will rain,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+no hail in fresno, tomorrow there will be rain,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+until next time!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+what city are you interested in?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> city city you want the weather <unk> <eos>
+it will be cloudy, with a low of 90f and a high of 100f in compton on sunday.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+anytime.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+your doctor's appointment is scheduled for friday at 11 am.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> is is is <unk> <eos>
+what city are you wanting to know the temperature for?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> city you you you the weather <unk> <eos>
+it will be between 60-70f today and 30-40f tomorrow in seattle.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+no problem.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+yes, i have one listed that is 1 mile away.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> is is <unk> <unk> <eos>
+then let's go at palo alto garage r, i sent the info on your screen!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you're <unk> <eos>
+you are welcome,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you're <unk> <eos>
+the nearest starbucks is 3 miles away. there is a road block on its way so i already sent on your screen another route to reach faster,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date lab_appointment#date <unk> <eos> <eos>
+yes, it is, hope you can have your coffee soon!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+the starbucks is located at 792 bedoin street. setting navigation now.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+you're welcome; drive safely, and enjoy.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+it will be cloudy but not foggy in redwood city on tuesday.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> will be lab_appointment#date in on on <unk> <eos>
+glad i could help out,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <eos>
+navigating you to town and country.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> is is is <unk> <unk> <eos>
+setting gps for fastest route with no traffic,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date lab_appointment#date lab_appointment#date <unk> <eos>
+the address is 383 university ave, i sent it on your screen,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you're <eos> <eos>
+you're welcome and we should be there soon.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you're <eos> <eos>
+yoga is with alex at 11 am.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> your your with another another and with with with <unk>
+you are welcome.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk>
+your appointment is for tuesday at 11 am.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> appointment appointment is is is at <unk> <eos>
+there is valero 7 miles away with moderate traffic on our way,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> is is <unk> <unk> <eos>
+valero is at 200 alester ave.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <eos>
+there is moderate traffic on our way, i sent the route on your screen,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <eos>
+you're welcome!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <eos>
+you have two meetings scheduled, one at 4pm in conference room 102 to discuss the company picnic, and one at 6pm in 100 conference room to go over the quarterly report.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> is is is is at <unk> <eos>
+you're welcome.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <eos>
+your next meeting is on monday at 7 pm with the infrastructure team to go over budget.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> lab_appointment#date <unk> <unk> <eos>
+the nearest parking garage is palo alto garage r, it's 1 miles away. navigate you there?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> is is is is is is is is is is <unk> <eos>
+i sent the info and the quickest info on your screen, you're welcome!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> moderate amounts amounts <unk> <eos>
+your swimming activity with jon has been scheduled for dec 10th at 3pm.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date lab_appointment#date lab_appointment#date lab_appointment#date lab_appointment#date with with at <unk> <unk>
+it is my job and pleasure.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you're <unk>
+your boss will be at the meeting on monday at 1 pm.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> your another another is <unk> <unk> on <unk> <unk>
+happy to help,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <eos>
+what location do you want to know if it will snow?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> city city you you lab_appointment#date lab_appointment#date <unk> <eos>
+it will snow on tuesday in mountain view.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+no problem.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+when?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date lab_appointment#date lab_appointment#date <unk> <unk>
+okay. we set up your doctor's appointment today at 1 pm.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date lab_appointment#date lab_appointment#date lab_appointment#date at <unk> <unk>
+we're 3 miles away from topanga mall and there is heavy traffic on its way,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> is is is is <unk> <unk> <eos>
+you will find topanga mall at 171 oak rd,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+setting navigation now.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+you're welcome; drive safely.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+bye!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+the westin is 4 miles away with moderate traffic. will that help?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> is is is is <unk> <eos>
+the westin is at 329 el camino real. do you need me to set the navigation?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <eos>
+navigation set. have a great day.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <eos>
+your dinner is on tuesday with your sister.,<pad> have <pad> <pad> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <eos>
+you're welcome,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk>
+it will be stormy and hailing in san francisco in the next two days.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> is is is is is <unk> <unk> <eos>
+no problem.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <eos> <eos>
+for which one? i have two, one on the 8th at 11 am and one on wednesday at 11 am.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> at on another another another is on at <unk> <unk>
+you're welcome.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk>
+where are you wanting to know if it's going to rain or not?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> city city you you you the forecast <unk> <eos>
+it is not going to rain in san francisco this week.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date <unk> <eos>
+no problem.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date <unk> <eos>
+what city are you wanting to know the weather for?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> city city you want the weather <unk> <eos>
+tomorrow in seattle is looking warm with a low of 70f and a high of 90f. no sign of fog.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+no problem!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+what city would you like the 7 day forecast for?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you you you the the <unk> <unk> <eos>
+it should not be humid in compton next week.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+anytime!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+tom lives at 580 van ness ave.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date is lab_appointment#date <unk> <eos>
+i did, you're welcome!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date <unk> <eos>
+what time on the 1st should i set a reminder to watch the football game?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date lab_appointment#date <unk> <unk> <unk>
+i have set a reminder for the football game at 2 pm on the 1st,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk>
+you are welcome,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk>
+your doctor appointment is on monday at 2 pm.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> is is is at <unk> <eos>
+what city do you want the weather forecast for?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you want the weather <unk> <eos>
+today in downtown chicago there should be hail with a high of 70f,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <unk> in <unk> <unk> <eos>
+you're welcome!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+on thursday the temperature in alhambra will be low of 20f, and high of 30f,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date lab_appointment#date lab_appointment#date lab_appointment#date in in on <unk> <eos>
+happy to help,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <eos>
+the 4th at 1pm with tom, the 10th at 9am with ana, the 13th at 9am with your father, the 5th at 2pm with alex, and the 10th at 4pm with your sister.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> is is is at <unk> <eos>
+what city are you inquiring about?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> city city you want the weather <unk> <eos>
+what would you like to know about the weather in durham?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date lab_appointment#date lab_appointment#date in in in <unk> <eos>
+the weekly forecast does not show that there will be a blizzard in durham this week.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you're <unk> <eos>
+not a problem.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you're <unk> <eos>
+is there a specific day you would like to know the weather for in new york?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date lab_appointment#date lab_appointment#date new new new new <eos> <eos>
+it will be dry and between 30-50f friday in new york.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+no problem.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+taking medicine with your brother at 6pm on the 13th has been scheduled.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date lab_appointment#date activity lab_appointment#date on with with with with <unk>
+it is cloudy right now in cleveland.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> will lab_appointment#date lab_appointment#date in in on <unk> <eos>
+you're welcome.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> in in <unk> <unk> <eos>
+the palo alto medical foundation is 4 miles away at 611 ames ave. would you like directions there?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date is <unk> <unk> <eos>
+there is moderate traffic on our way and you should be able to reach there fast. i sent all the info on your screen, drive carefully!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+you're welcome.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+your football  activity is on sunday at 9 am with your brother.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date lab_appointment#date lab_appointment#date is is at at <unk> <eos>
+happy to help,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk>
+there is a safeway 2 miles away: would you like to get its address?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> store store <unk> <unk> is is <unk> <unk> <eos>
+safeway is at 452 arcadia pl.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date <unk> <eos>
+the only route has moderate traffic is that going to be okay?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date <unk> <eos>
+safeway is the only grocery store listed, it has moderate traffic. will that be ok?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date <unk> <eos>
+setting destination now.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date <unk> <eos>
+you're welcome.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date <unk> <eos>
+it is not hailing in manhattan, the forecast says it is dry today.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date in in lab_appointment#date <unk> <eos>
+any time.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <eos>
+could you please let me know what place i am looking up the data for?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> city city you you lab_appointment#date lab_appointment#date <unk> <eos>
+this week boston does not have any weather predictions of it being cloudy,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date <unk> <eos>
+no problem my driver!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date <unk> <eos>
+for which time period did you want weather information?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date lab_appointment#date the the new <unk> <eos> <eos>
+it is between 50-70f in new york right now.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+no problem.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+what city are you in?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you you the the weather <unk> <eos>
+this week in manhattan the temperature will range from 20f to 100f,<pad> <pad> <pad> <pad> <pad> the the the the the the the lows lab_appointment#date lab_appointment#date lab_appointment#date the the <unk> <unk>
+i'm here to assist you!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you're <unk> <eos>
+okay, setting a reminder to take medicine with your brother frank at 9 am on sunday.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date appointment with with with with with with <unk>
+no problem!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <eos>
+your conference is set for monday with your boss to go over budget.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> on on on <unk> <unk> <unk> <unk>
+the conference is with your boss.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you're <unk>
+you're welcome. don't forget it's held in conference room 102.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you're <unk>
+no problem,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you're <unk>
+jack lives at 864 almanor ln.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date is lab_appointment#date <unk> <eos>
+you're welcome!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> is is is <unk> <eos>
+there is no starbucks locally.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> is is is <unk> <eos> <eos>
+teavana is 5 miles away at 145 amherst st. with moderate traffic.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <unk> <unk> <eos>
+the current route is the fastest one i can find,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <eos>
+you're welcome!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <eos>
+palo alto garage r	is at 481 amaranta ave.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> is is <unk> <eos>
+i will send on your screen the quickest route, sure, there is heavy traffic now and we will have to make the route slightly longer,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <eos>
+you're welcome, we should arrive shortly.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <eos>
+which appointment would you like the date for?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> is is is <unk> <eos>
+the forecast says there will be snow in fresno, there is no mention of clear skies on wednesday.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> will be lab_appointment#date in on on <unk> <eos>
+you are welcome,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you're <unk> <eos>
+whole foods located at 819 alma st is 1 mile away although there is a car collision nearby,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> lab_appointment#date lab_appointment#date <unk> <unk> <eos>
+the current route is the quickest,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you're <unk> <eos>
+you're welcome!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you're <unk> <eos>
+the one at 6pm with jon is on the 11th,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> your your is is is on with with <unk> <eos>
+glad i can help.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you're <unk>
+what time do you want to go swimming,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date lab_appointment#date <unk> <unk>
+what city would you like to hear this weather information for?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> city city you you the forecast <unk> <eos>
+it will not snow in san mateo this week.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+you're welcome!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+which location do you want to know the current temperature of?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you like the the the <unk> <eos>
+the temperature in alameda now is low 60f, and high 80f,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date lab_appointment#date in in <unk> <eos> <eos>
+you are welcome,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+on friday on san francisco the weather will be dry with a high of 80f.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> will lab_appointment#date lab_appointment#date in in <unk> <eos> <eos>
+anytime.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you're <unk> <eos>
+the clement hotel is 8 miles away at 657 ames ave.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date is lab_appointment#date <unk> <eos>
+there is currently moderate traffic on the way to the hotel; setting directions now.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+you're welcome!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+what city are you wanting to know the weather for?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> city city you want the weather <unk> <eos>
+in los angeles, it is going to be hot today with a low of 40f and a high of 60f.  tomorrow will be rainy with a low of 40f and a high of 60f.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+anytime.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+what city are you inquiring about?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> city city you want the weather <unk> <eos>
+in seattle there is snow right now,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <eos>
+you are most welcome.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <eos>
+what city can i check for snow for you?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> city city you you the lab_appointment#date <unk> <eos>
+snow is predicted to fall on saturday in alameda,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date lab_appointment#date in in <unk> <unk> <eos>
+you're welcome!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <eos> <eos>
+what time would like the reminder?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> the <unk> <unk> <unk>
+i have set a reminder for sunday at 2 pm,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date lab_appointment#date lab_appointment#date lab_appointment#date on at at <unk> <unk>
+you are welcome.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you're <unk>
+i've scheduled a dentist appointment for 3pm on the 12th, anything else?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date lab_appointment#date lab_appointment#date lab_appointment#date at <unk> <unk>
+i have scheduled the appointment.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <eos>
+peets coffee also serves tea. they are 2 miles away at 9981 archuleta ave,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> is is is <unk> <unk> <eos>
+moderate traffic is listed to peets coffee.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+displaying directions now.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+you're welcome; drive safely, and enjoy.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+the westin is located 7 miles away with no traffic. setting directions now to 329 el camino real,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> is is <unk> <eos> <eos>
+setting navigation now.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+you're welcome!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+jon and jeff will be attending your tennis activity.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <unk> <unk> <unk> and and on <unk> <unk> <unk>
+they will be there at 1 pm.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> is is is is at <unk> <eos>
+you are welcome.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> is is is is at <unk> <eos>
+what city do you want to hear the forecast report from?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> city city you want the weather <unk> <eos>
+it will be stormy in camarillon on friday.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+you're welcome.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+saturday it will snow in fresno,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> it lab_appointment#date lab_appointment#date lab_appointment#date in in on <unk> <eos>
+glad to help,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <eos>
+the football game is on thursday.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> is is is at <unk> <eos>
+you have an optometrist appointment today at 1pm.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date lab_appointment#date <unk> <unk>
+the agenda for your meeting is to discuss the merger.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date lab_appointment#date <unk> <unk> <eos>
+your meeting is on wednesday at 3pm in conference room 100.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date <unk> <eos>
+you're welcome,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date <unk> <eos>
+there aren't any cloudy days in the forecast for inglewood.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date lab_appointment#date lab_appointment#date in in in <unk> <eos>
+you're welcome!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <eos>
+you have two swimming activities scheduled. one on wednesday at 5pm and the other on the 5th at 4pm.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> your is is is is at <unk> <eos>
+no problem.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date <unk> <eos>
+home is 5 miles away at 5671 barringer street.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <unk> <unk> <eos>
+no the only route available has heavy traffic. i'm sorry.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> is <unk> <unk> <eos>
+sorry about it, enjoy some music in the meantime!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+okay, i will set a schedule for a swimming activity with marie on sunday at 6pm.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date lab_appointment#date lab_appointment#date lab_appointment#date lab_appointment#date at at <unk> <unk>
+you are welcome.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you're <unk>
+the nearest hotel is hotel keen, it's 3 miles away. do you want its address?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> is is is <unk> <unk> <eos>
+578 arbol dr, there is no traffic and you should arrive in a couple minutes,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you're <unk> <eos>
+i picked the best route for you, drive carefully!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you're <unk> <eos>
+you're welcome!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you're <unk> <eos>
+there is heavy traffic in this moment but we're just 1 miles away, it shouldn't take too long to reach there,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> is is is is <unk> <eos>
+i sent all the info on your screen, drive carefully!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you're <unk> <eos>
+you are welcome!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you're <unk> <eos>
+okay, what city should i look in?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> city you you the forecast <unk> <eos>
+during the week it will be cloudy in grand rapids only today,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date lab_appointment#date lab_appointment#date lab_appointment#date lab_appointment#date lab_appointment#date lab_appointment#date lab_appointment#date <unk> <eos>
+glad i could help out,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+i have located a parking garage 2 miles away at 880 ames ct. called webster garage.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> is is <unk> <eos>
+it is located 2 miles away, with moderate traffic en route.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+no problem,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+your doctor's appointment at 2 pm, your aunt will be going.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> your your your lab_appointment#date and and on with <unk> <unk>
+happy to help,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> are <unk>
+i am setting an appointment at the dentist on the 12th of current month at 9 am with martha.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date lab_appointment#date lab_appointment#date at at at <unk>
+you are welcome.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk>
+swimming plans,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> time lab_appointment#date lab_appointment#date <unk> <unk>
+swimming plans on friday at 11 am have been added to the calendar.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date lab_appointment#date lab_appointment#date lab_appointment#date <unk> <unk> <unk>
+ok,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk>
+your agenda for your meeting today is go over budget.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> is is the <unk> <unk> <eos>
+there is 2 tea shops near you; teavana is 4 miles away and cafe venetia is 5 miles away. which one do you want?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> you you <unk> <unk> <eos>
+teavana is the fastest journey, because there is no traffic on the way there. cafe venetia has moderate traffic. should we go to teavana?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+i sent on your screen its position and the fastest route to get there,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+teavana is located at 145 amherst st.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+you're welcome, glad i could be of assistance.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+there is not gonna be any blizzard this week in alhambra; on tuesday it will rain,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date lab_appointment#date lab_appointment#date in in lab_appointment#date <unk> <eos>
+you are very welcome.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <eos>
+there is no fog in the forecast for exeter next week.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date lab_appointment#date lab_appointment#date in in lab_appointment#date <unk> <eos>
+you're welcome!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <eos>
+i do not have info on the local starbucks but i do see another coffee place. would you like to hear info on it?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> is is is <unk> <eos> <eos>
+there is coupa located at 394 van ness ave, there is moderate traffic but you're just 6 miles away,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <eos>
+you are welcome!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <eos>
+this week the highest temperature in cleveland will be 100f on saturday,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date lab_appointment#date lab_appointment#date lab_appointment#date in in in <unk> <eos>
+you're welcome!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <eos>
+stanford shopping center is the only nearby shopping center.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> is is is is is is lab_appointment#date <unk> <eos>
+there is a car collision nearby stanford shopping center.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+the route to 773 alger dr set to the quickest possible.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+you're welcome!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+you have 3 optometrist appointments scheduled, one with marie on the 2nd, martha on saturday, and your brother on the 16th.,you have <pad> <pad> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk>
+you're welcome,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <eos>
+philz serves coffee and is 6 miles away at 583 alester ave.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> is is <unk> <unk> <eos>
+there is no traffic on the 6 mile route to philz; enjoy.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you're <unk> <eos>
+you're welcome.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you're <unk> <eos>
+in new york, it will be raining monday and tuesday, snowing wednesday, windy on thursday, frost on friday, dew on saturday, and overcast on sunday.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> with with with with lab_appointment#date lab_appointment#date lab_appointment#date lab_appointment#date lab_appointment#date <unk> <eos> <eos>
+you're welcome.. patience!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+there isn't any traffic to pizza my heart at 528 anton ct. it will be a 6 mile drive.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> is is is <unk> <eos>
+quickest route with no traffic set for pizza my heart. have a great day.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+there is a chef chu's and a tai pan.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> is is is <unk> <eos>
+that would be chef chu's,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+chef chu's is at 593 arrowhead way.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+you're welcome.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+hotel keen is a rest stop located 3 miles away. there is a car collision nearby but should delay you to long.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> is is is <unk> <unk> <eos>
+the address for hotel keen is 578 arbol dr, 3 miles away with a car collision nearby,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <eos>
+i sent the quickest route on your screen,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <eos>
+you're welcome; drive safely.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <eos>
+if you drive carefully it will be for sure!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <eos>
+what city do you want the weather for?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> city city you want the weather <unk> <eos>
+in manhattan it will be stormy on wednesday and thursday,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+anytime.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+the nearest pizza restaurant with no traffic is 3 miles away at 113 anton ct. do you want to go to the round table?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> is is <unk> <unk> <eos>
+you're welcome,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+in los angeles it is gonna be warm on tuesday,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date lab_appointment#date lab_appointment#date lab_appointment#date lab_appointment#date los los los <eos>
+anytime!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <eos>
+your home is at 56 cadwell street.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> is is is is <unk> <eos>
+no problem,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you're <unk> <eos>
+your dinner reservation is at 5 pm.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> is is at <unk>
+palo alto medical foundation at 611 ames ave is 4 miles away but there is no traffic on the way. setting navigation now.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <eos>
+you are welcome,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <eos>
+ok, dentist appointment with your dad on the 1st at 2pm is set,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date lab_appointment#date lab_appointment#date lab_appointment#date at <unk> <unk>
+what date and time is your swim appointment?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date lab_appointment#date lab_appointment#date <unk> <unk> <eos>
+i have added swim appointment to your calendar at 10 am on thursday.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <eos>
+you are welcome.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <eos>
+your lab appointment is on the 5th and your aunt will be attending.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> another another another on at at <unk> <eos>
+the lab appointment is schedule for 2 pm on the 5th and your aunt will be attending.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you're <unk>
+you're welcome,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you're <unk>
+the nearest gas station is located 5 miles away. need more info?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> is is is <unk> <unk> <eos>
+setting gps for quickest route to valero gas station now.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+valero is located at 200 alester ave.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+you're welcome, glad i could help.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+the weather in cleveland on thursday will have dew and a high of 30f.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <unk> lab_appointment#date in <unk> <unk> <eos>
+anytime!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you're <unk> <eos>
+your home is 4 miles away but there is heavy traffic on our way, i sent the best available route on your screen,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> is is is <unk> <eos>
+sure, it's 56 cadwell street, you can see it on your screen,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> is <unk> <unk> <eos>
+you're welcome; drive safely.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> is <unk> <unk> <eos>
+the temperatures in seattle will be high this week and the hottest days will be monday and tuesday with 100f (but pay attention, it's gonna rain too),<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date lab_appointment#date lab_appointment#date in in <unk> <unk> <eos>
+the highs for boston this weekend are in the 90s while the lows are supposed to be 70s.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> are <unk> <eos>
+you're welcome, glad i could help.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> are <unk> <eos>
+okay, scheduling a swimming activity with your brother for the 7th at 11am.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date lab_appointment#date lab_appointment#date lab_appointment#date at at at at at <unk> <unk>
+glad to help,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you're <unk>
+stanford shopping center is 4 miles away.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> is is <unk> <unk> <eos>
+ok, you will headed toward stanford shopping center at 773 alger dr, located 4 miles away.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date <unk> <eos>
+you are welcome.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date <unk> <eos>
+for which one? i have two, one at 6pm and one at 3pm.,<pad> have <pad> <pad> <pad> <pad> <unk> <unk> <unk> <unk> <unk> <unk> and and and and and <unk> <unk> <unk>
+the event is on sunday at 6pm in conference room 102 and management will be attending.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <eos>
+no problem, goodbye.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <eos>
+currently you are taking medicine on two occasions. one is on the 13th at 4pm with your mother. the other is on monday at 11 am with marie.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> your <unk> <unk> and and <unk> with <unk> <unk>
+hr will be at the friday meeting.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> is is is at <unk> <eos>
+the weather forecast predicts that it will be stormy in los angeles on sunday,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date lab_appointment#date lab_appointment#date los los los los los <eos>
+no problem.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <eos> <eos>
+your next lab appointment is next monday at 2 pm.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> is is is at <unk> <unk>
+okay, scheduling a dentist appointment with ana on the 8th at 1pm.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date lab_appointment#date lab_appointment#date on with at <unk> <unk>
+glad i can assist you.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <eos>
+there is a travelers lodge one mile away.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> is is <unk> <unk> <eos>
+travelers lodge 333 arbol dr.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+gps set for shortest route.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+have a good day.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+you are playing tennis on 11 am friday.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> is is is at <unk> <eos>
+you have two dentist appointments, one with your aunt and one with your sister, both on monday.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <unk> <unk> and and and and <unk> <unk> <unk>
+glad i can assist you.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk>
+you have four yoga activities scheduled; one on monday with alex, two on friday with sister and one with marie, and one on the 17th with martha.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> with with with with <unk> <unk> with with with <unk>
+you are welcome!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk>
+okay scheduling taking medicine with martha at 5pm next wednesday.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date lab_appointment#date lab_appointment#date lab_appointment#date with with at <unk> <unk>
+taking medicine scheduled for next wednesday at 5 pm,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+what city do you want the weather for?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> city you you want the weather <unk> <eos>
+there are no clouds in fresno right now.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <eos>
+anytime.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+there is no starbucks listed locally but i have another coffee shop listed would you like the address to it?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> is is lab_appointment#date <unk> <eos> <eos>
+then let's go at cafe venetia, 269 alger dr,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <unk> <eos>
+the destination is 4 miles away in no traffic.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <unk> <eos>
+you are welcome!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <unk> <eos>
+there is no starbucks close but there is two others; one is coupa that is 6 miles away and the other is cafe venetia which is 3 miles away. which one do you want?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> is is lab_appointment#date <unk> <eos> <eos>
+cafe venetia is located at 269 alger drive with heavy traffic. is that going to be okay?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+i sent the info on your screen, drive carefully!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+you're welcome!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+where would you like to know if it will snow?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> city city you you the asking <unk> <eos>
+no it's not forecast to snow in corona today; the forecast is humid with a low of 70f and a high of 90f.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you're <unk> <eos>
+you're welcome. have a great day.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you're <unk> <eos>
+the travelers lodge is closest to you at 6 miles away in moderate traffic. would you like directions there?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <unk> <unk> <unk> <unk> you <unk> <unk> <unk> <eos>
+i'm setting the gps for 333 arbol dr.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <eos> <eos>
+you are welcome,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <eos> <eos>
+we're 5 miles away from p.f. changs: do you want to go there?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date in in in <unk> <eos>
+taking you to pf changs.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+the addres of p.f.changs is 669 el camino real,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+navigation set, we should arrive shortly.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+what city would you like weather information about?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> city city you lab_appointment#date the forecast <unk> <eos>
+the weather forecast for oakland does not show rain right now.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date <unk> <unk> <eos>
+you are welcome.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date <unk> <unk> <eos>
+i will schedule a conference at 6 pm on the tenth with sales team.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date lab_appointment#date with with with with with with <unk> <unk>
+you are welcome.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk>
+okay, setting a reminder to take your medicine with ana at 7 pm on tuesday.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date lab_appointment#date lab_appointment#date at at at at <unk>
+you are welcome.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <eos>
+chevron is 6 miles away.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> is is <unk> <unk> <eos>
+i'm sorry, chevron is the only gas station i am able to locate,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date <unk> <eos> <eos>
+its address is 783 arcadia pl, i sent it on your screen,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date <unk> <eos> <eos>
+you're welcome; drive safely.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date <unk> <eos> <eos>
+no problem,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date <unk> <eos> <eos>
+your reminder has been set for saturday at 2pm to take medicine with martha.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date lab_appointment#date lab_appointment#date lab_appointment#date with at at <unk>
+we're 3 miles away from chef chu's and 6 miles away from mandarin roots,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> is is is <unk> <eos>
+chef chu's is closer.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <eos>
+chef chu's is located at 593 arrowhead way.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <eos>
+chef chu's is 3 miles away through moderate traffic,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <eos>
+you're welcome!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <eos>
+stanford express care is 7 miles away, though there is a car collision nearby. would you like directions there?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date is <unk> <unk> <eos>
+okay, heading to 214 el camino real,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+there are no starbucks around here but we're 4 miles away from cafe venetia: is it okay to go there?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> is is lab_appointment#date <unk> <eos> <eos>
+i sent the address with the fastest route on screen, drive carefully!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+am or pm ?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date lab_appointment#date lab_appointment#date lab_appointment#date at <unk> <unk>
+swimming reminder has been set for the 12th at 4:50pm.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk>
+you're welcome.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk>
+your next meeting is with your boss at 10 am in conference room 102.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> is is is at at at <eos>
+you're welcome!  did you also want to know the agenda for the meeting?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date <unk> <unk>
+you are welcome,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date <unk> <unk>
+there is currently snow in san francisco,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date lab_appointment#date in in <unk> <unk> <eos>
+happy to help,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <eos>
+which one? i have two, one  with your father on the 3rd, and one with tom on the 9th.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <unk> <unk> <unk> and and and and <unk> <unk> <unk>
+the appointment on the 9th is at 3 pm.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk>
+what day and time is the conference,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date lab_appointment#date lab_appointment#date lab_appointment#date <unk> <unk>
+i have that conference set up for you to be reminded of. is there anything else you need?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+your reminder for the conference with the executive team on august the 14th at 4pm is all set.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+you are welcome,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+your tennis activity is set for 11 am with jon in attendance.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> is is is is <unk> with <unk> <eos>
+happy to help,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk>
+what city would you like weather information about?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you you the the weather <unk> <eos>
+in san jose, it is expected to be between 40-60f monday and tuesday, 70-80f wednesday, 90-100f thursday, 70-90f friday, 30-40f saturday, and 40-60f on sunday.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+you are welcome.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+in san mateo it will be stormy on saturday, and hail on sunday,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date lab_appointment#date lab_appointment#date lab_appointment#date in in in <unk> <eos>
+you're welcome,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <eos>
+what city are you interested in,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you you the the weather <unk> <eos>
+the temperature in los angeles this week reaches a low of 40f and the highest will be 100f,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date lab_appointment#date lab_appointment#date lab_appointment#date lab_appointment#date lab_appointment#date lab_appointment#date lab_appointment#date lab_appointment#date los los
+you're welcome. hope you have a great day.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+friday at 3pm,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> next is is is is is at <unk> <eos>
+where are you interested in?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you you the the weather <unk> <eos>
+in camarillo it will be stormy on tuesday,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> will lab_appointment#date lab_appointment#date in in <unk> <unk> <eos>
+happy to help,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+okay, i am scheduling a conference with your boss for the 5th of this month at 1pm.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> with with with with with with with with <unk> <unk>
+no problem!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <eos>
+okay, scheduling a tennis activity with martha for friday at 4pm.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date lab_appointment#date lab_appointment#date lab_appointment#date lab_appointment#date at <unk> <unk>
+you are welcome.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk>
+it will not be windy in atherton in the next few days.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date lab_appointment#date lab_appointment#date in in lab_appointment#date <unk> <eos>
+you're welcome.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you're <unk> <eos>
+the travelers lodge is located 4 miles away at 333 arbol dr. would you like directions there?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> is is <unk> <unk> <eos>
+ok, i am setting gps for 333 arbol dr.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <eos>
+you're welcome, have a great day.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <eos>
+okay, scheduling a reminder for your tennis activity at 5pm on the 10th with jon,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <eos>
+you are welcome,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <eos>
+jacks house is at 864 almanor ln.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> is is <unk> <eos>
+taking you to jack's house.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you're <unk> <eos>
+i sent all the info on your screen, drive carefully!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you're <unk> <eos>
+anytime!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you're <unk> <eos>
+okay, which one? i have one for the 12th at 9am, and one for the 4th at 5pm.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> at at at at another another another another on at <unk> <unk>
+you're welcome.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date <unk> <unk>
+there are the ravenswood shopping center and the stanford shopping center both 3 miles away: do you want me to flip a coin between them or will you pick where to go?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> is is is <unk> <unk> <eos>
+navigating you to ravenswood shopping center.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <eos>
+the address to ravenswood shopping center is 434 arastradero rd.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <eos>
+good day!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <eos>
+trader joes is 2 miles away at 408 university ave there is currently heavy traffic on the route,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> is is <unk> <unk> <eos>
+setting navigation now. there is heavy traffic on the way, so drive carefully.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+you're welcome; drive safely.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+what city are you wanting to know if it's going to rain?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> city city you lab_appointment#date the forecast <unk> <eos>
+it will rain on wednesday in redwood city.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date <unk> <eos>
+no problem, so long.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date <unk> <eos>
+stanford express care is nearby.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you is <unk> <unk> <eos>
+does stanford express care have heavy traffic nearby?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+the route to stanford express care does have heavy traffic.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <eos>
+yes stanford childrens health is 1 mile away with no traffic. do you want the address?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <eos>
+nan,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <eos>
+i'm sorry, i did.. and i sent the address on your screen, drive carefully!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <eos>
+cafe venetia is 2 miles away at 269 alger dr,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> is <unk> <unk> <eos>
+setting navigation now for the quickest route. there is a road block nearby, so drive carefully.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+anytime.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+the westin is 6 miles away.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> is is is <unk> <eos>
+navigating to the westin.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <eos>
+the address is 329 el camino real,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <eos>
+you're welcome, happy to be of assistance.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <eos>
+there is a safeway 4 miles away.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> is lab_appointment#date <unk> <unk> <eos>
+safeway is located at 452 arcadia pl. with a road block nearby.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> is <unk> <unk> <eos>
+i sent the fastest route on your gps, drive carefully!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <eos>
+you're welcome!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <eos>
+your next meeting is monday at 3 pm.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> is is is is at at <unk>
+what city are you wanting to know the temperature for?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you you the the weather <unk> <eos>
+the lowest temperature in fresno this week is predicted to be 60f, the highest, 100f,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <eos>
+no problem.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <eos>
+which city are you wanting to know the weather for?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> city city you want the weather <unk> <eos>
+it will be windy tomorrow in seattle.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+you are welcome!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+i am unable to locate starbucks. there is a coffee or tea place called coupa mile away.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> is is is <unk> <eos> <eos>
+coupa is 1 mile away with heavy traffic. it shouldn't take us long. it's located at 394 van ness avenue.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <eos>
+you're welcome!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <eos>
+what day would you like the forcast for?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> will lab_appointment#date lab_appointment#date in in on <unk> <eos>
+it will not be dry in redwood city next week.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you're <unk> <eos>
+you are welcome.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you're <unk> <eos>
+monday in fresno will have the highest temperature of 90f,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date lab_appointment#date lab_appointment#date in in in <unk> <eos>
+you are welcome.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <eos>
+okay, i am scheduling a swimming event with tom on the 6th at 2pm.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date lab_appointment#date with with with with with with <unk> <unk>
+not a problem.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <eos>
+i will note down your eye doctor appointment at 5pm the 12th,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date lab_appointment#date lab_appointment#date lab_appointment#date at <unk> <unk>
+midtown shopping center is the closest shopping center to you. would you like the address?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> you you lab_appointment#date <unk> <unk> <eos>
+we're going to 338 alester ave, there is heavy traffic but it's just 2 miles away,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <eos>
+sending the address for the midtown shopping center at 338 alester ave to your gps.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <eos>
+you're welcome!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <eos>
+jills house is located at 347 alta mesa ave.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date lab_appointment#date <unk> <unk> <eos>
+certainly. setting navigation details now. there's a car collision nearby, so take care on the roads.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+you're welcome!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+there is cafe venetia that's 4 miles away at 269 alger dr,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> you <unk> <unk> <unk> <eos>
+there is no traffic on our route, i've set the navigation there,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <eos>
+you're welcome!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <eos>
+the football game is wednesday at 10 am.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> is is is is at <unk> <eos>
+my pleasure,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <eos>
+in what city are you asking?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you you the the weather <unk> <eos>
+the temperature in durham will be: lowest temperature, low of 70f, high of 90f tuesday. highest temperature, low of 40f, high of 60f thursday.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <eos>
+you're very welcome!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+home is listed as 56 caldwell street.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> is is <unk> <eos>
+setting quickest route home now.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <eos>
+anytime!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <eos>
+pizza chicago	is 2 miles away.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> is is is <unk> <unk> <eos>
+the address is 915 arbol dr. would you like directions there?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+okay, heading to pizza chicago,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+the nearest one is midtown shopping center but there is a road block nearby. there is also ravenswood shopping center 2 miles farther but with no traffic on its direction,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> is is is is <unk> <eos>
+setting directions to 434 arastradero rd.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+you're welcome, always happy to help.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+whole foods is 4 miles away.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> you you <unk> <unk> <eos>
+the quickest route to whole foods at 819 alma street does not have any traffic.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> is lab_appointment#date <unk> <eos>
+gps set and have a great day.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+we're 5 miles away from starbucks: do you like their tea?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> lab_appointment#date like <unk> <unk> <eos>
+you will find starbucks at 792 bedoin street,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+you're welcome!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+coupa is nearby and serves tea.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> lab_appointment#date is <unk> <unk> <eos>
+moderate traffic to coupa.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <eos>
+coupa's address is 394 van ness ave.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <eos>
+no but palo alto cafe is just 1 mile away and has moderate traffic so we should be able to get there quicker. how does that sound?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <eos>
+ok, initiating navigation.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <eos>
+the nearer cafe is cafe venetia, it's 2 miles away and there is a car collision nearby,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you is <unk> <unk> <eos>
+i'm afraid that cafe venetia is the best option in this moment. i sent on your screen the directions to reach there through another route,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+you're welcome; drive safely.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+okay scheduling an appointment for yoga.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> time lab_appointment#date lab_appointment#date schedule your <unk>
+what city are you asking about?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date lab_appointment#date lab_appointment#date the lab_appointment#date <unk> <unk>
+monday will be foggy, with low's of 30f and high's of 40f. similar heh.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you're <unk> <eos>
+no problem!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you're <unk> <eos>
+what city are you asking about?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> city city you you the weather <unk> <eos>
+tomorrow will not be hot in atherton, it will be dry, low of 30f, high of 50f,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date <unk> <eos>
+no problem!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date <unk> <eos>
+what location would you like the weather information for?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> city city you the forecast <unk> <eos>
+today in san jose there will be an overcast, co clear skies.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+no problem.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+the closest coffee place is coupa but there is heavy traffic, would you like a different location?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <unk> <unk> <unk> <unk> <eos>
+starbucks at 792 bedoin street is 3 miles away with no traffic,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <unk> <eos>
+sending you direction now.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <unk> <eos>
+you're welcome,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <unk> <eos>
+it will be warm in san francisco tomorrow, it should not be windy,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date lab_appointment#date lab_appointment#date in in in los <eos> <eos>
+no problem,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <eos>
+what city are you interested in the forecast for?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> city city you want the weather <unk> <eos>
+it will snow in los angeles tomorrow, with a low of 70f and a high of 90f.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+no problem.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+you have a conference on the 13th at 9am with hr,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> is is is is is at <unk> <eos>
+happy to help,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk>
+your meeting is scheduled for 2 pm tomorrow. the agenda is to discuss the merger.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <unk> lab_appointment#date <unk> <unk> <unk> <eos>
+you are welcome.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <eos>
+you are welcome,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <eos>
+reminder set for lab appointment at 6 pm on august 3 with alex.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> your your lab_appointment#date lab_appointment#date lab_appointment#date lab_appointment#date at at <unk> <unk>
+what city can i give you this weather information for?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you you you the weather <unk> <eos>
+snow is predicted to fall in san jose on thursday this week.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+you are very welcome,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+your next appointment with your optometrist is tuesday at 11am.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date lab_appointment#date lab_appointment#date lab_appointment#date lab_appointment#date lab_appointment#date lab_appointment#date lab_appointment#date <unk> <unk>
+you have four football activities scheduled, one on monday at 6pm with alex, one on the 13th at 9am with alex, one on wednesday at 1pm with jeff, and one on saturday at 5pm with ana.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date lab_appointment#date is is is at <unk> <eos>
+you're welcome,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you're <unk>
+okay, scheduling a football activity with tom for friday at 10am.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date lab_appointment#date with with with with with <unk> <unk>
+happy to help,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you're <unk>
+the only nearby hospital is  stanford express care which is 5 miles away.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> is is is is <unk> <eos>
+there is currently a road block nearby on the 5 mile route to stanford express care.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you're <unk> <eos>
+the only route to stanford is reporting a road block but i am finding you the quickest route to 214 el camino real.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you're <unk> <eos>
+you're welcome; drive safely, and take care.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you're <unk> <eos>
+okay setting reminder for doctor's appointment on the tenth, would you like me to include a time?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> is the <unk> <unk>
+great, i've set your doctor's appointment for the 12th at 1pm.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date <unk> <eos>
+we are 3 miles away from town and county shopping center. does it sound good to you?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> is is is is <unk> <unk> <eos>
+yes it is.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+town and country is located at 383 university avenue.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+have a good day.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+what city do you need the 2 day temperature for?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> city you you want the weather <unk> <eos>
+in grand rapids, it will be 50-70f today and 20-40f tomorrow.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+you're welcome.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+coupa is 5 miles away.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> you you <unk> <unk> <eos>
+i will pick the shortest route available for you, don't worry, do you want to get the info on your screen?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> is is is <unk> <eos>
+i sent the route on your screen, you're welcome!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+what city do you wanna know if it will snow today?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> city city you you the asking <unk> <eos>
+today is gonna be warm in oakland,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date lab_appointment#date <unk> <eos>
+no problem!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date lab_appointment#date <unk> <eos>
+your swimming activity is on the 5th, with your father.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> your is is is on on with <unk> <unk>
+happy to help,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk>
+your lab appointment is at 7 pm with jon and another one at 2 pm with alex.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> your your is is on on with <unk> <unk>
+my pleasure.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk>
+i have a few chinese restaurants listed. which one would you like to know about?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date is lab_appointment#date <unk> <eos>
+p.f.changs is 3 miles away but there is currently heavy traffic on the route. panda express is farther at 4 miles away, but there isn't any traffic,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <eos>
+yes panda express seems to be the fastest.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <eos>
+all right! navigating to panda express at 842 arrowhead way.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <eos>
+you're welcome!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <eos>
+your next meeting is with your boss on the 5th at 2pm.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> with with with with with with with with with <unk>
+you're welcome.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you're <unk>
+what city do you want to know if it's going to rain or not?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> city city city like lab_appointment#date the forecast <unk> <eos>
+there is no rain in fresno today but it will be cloudy.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you're <unk> <eos>
+you are welcome,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you're <unk> <eos>
+i have two, which one? i have one for the 14th at 6pm and one for the 12th at 7pm.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> at at at another another another another at at <unk> <unk>
+anytime!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk>
+what city can i give you the weather forecast for?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> city city want the weather <unk> <eos>
+today is gonna be dry on oakland,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+you're welcome!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+okay, scheduling a meeting with your boss to go over quarterly report on the 5th at 6pm.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date at <unk> <eos>
+is there a specific day you would like me to check the weather in grand rapids for?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date lab_appointment#date lab_appointment#date lab_appointment#date lab_appointment#date lab_appointment#date the lab_appointment#date <unk> <eos>
+grand rapids on friday will be windy between 60-70f.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+you are welcome.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+you're welcome.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+did you want the current weather?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date the the new new <unk> <eos> <eos>
+today's weather forecast is foggy, the low temperature of 40f and high of 60f.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you're <unk> <eos>
+not a problem.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you're <unk> <eos>
+what city would you like weather information about?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> city city city you the lab_appointment#date <unk> <eos>
+yes the forecast calls for rain in new york today.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date lab_appointment#date lab_appointment#date in in in <unk> <eos>
+no problem.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+what date is your appointment?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date lab_appointment#date lab_appointment#date lab_appointment#date lab_appointment#date <unk> <unk>
+a reminder has been set for your doctor's appointment at 7pm on monday.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <eos>
+no problem,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <eos>
+i'm sorry the only route home has heavy traffic. it will be a 7 mile drive to 10 ames street,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> is is is lab_appointment#date <unk> <eos>
+you're very welcome!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you're <unk> <eos>
+it is cloudy in redwood city today.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date in in <unk> <unk> <eos>
+no, it is not snowing in redwood city today.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <eos>
+happy to help,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <eos>
+would you prefer stanford shopping center which is 7 miles away with no traffic or ravenswood shopping center which is 1 mile away with a road block nearby?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> you you lab_appointment#date <unk> <unk> <eos>
+setting directions to 434 arastradero rd now.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <unk> <eos>
+you are welcome.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <unk> <eos>
+you have two yoga activities scheduled. one on monday at 5pm and another on the 5th at 4pm.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> at on another another at at at at <unk>
+have a great day.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you're <unk>
+there is moderate traffic on the 4 mile route home to 56 cadwell street,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <unk> <unk> <eos>
+you're welcome; drive carefully.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you're <unk> <eos>
+anytime,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you're <unk> <eos>
+here are directions to cafe venetia.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> is is is <unk> <unk> <unk> <unk> away <unk> <unk> <eos>
+unfortunately there is heavy traffic but it's just 2 miles away, you should be able to reach it quickly anyway,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <eos>
+269 alger dr is the location of cafe venetia.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <eos>
+you're welcome!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <unk> <eos>
+okay a reminder is set for tennis with martha at 10am. what is the date for the scheduled tennis event?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> a with with with with <unk> <unk> with with <unk> <eos>
+ok setting reminder for your tennis with martha at 10am for the last week of march.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <eos>
+you are welcome.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <eos>
+the closest is pizza chicago, 5 miles away at 915 arbol dr. would you like directions there?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> is is is is is is is at <unk> <eos>
+here is the shortest route to pizza chicago.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+you're welcome!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+there's a parking garage 2 miles away. would you like the name and address of it?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> is is is <unk> <eos>
+navigating to palo alto garage r.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+i did, and i sent the info on your screen: drive carefully!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+for what city are you interested in?,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> city city you you the the forecast <unk> <eos>
+it will not be windy in cleveland next week.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you're <unk> <eos>
+no problem.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> you're <unk> <eos>
+the nearest grocery store is located 6 miles away at 452 arcadia pl.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> store store <unk> <unk> is is <unk> <unk> <eos>
+safeway is located at 452 arcadia pl. and navigation is set.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+i did, i did! you're welcome!,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <unk> <eos>
+okay, scheduling a conference with the executive team for the 15th at 9am.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> lab_appointment#date lab_appointment#date lab_appointment#date lab_appointment#date lab_appointment#date lab_appointment#date lab_appointment#date <unk> <unk> <eos>
+you're welcome friend.,<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <unk> <eos>

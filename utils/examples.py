@@ -30,10 +30,11 @@ def run_examples(model, input_vocabulary, output_vocabulary, examples=EXAMPLES):
 
 
 def create_testset():
+    f = open("output_withoutkb.txt", "a")
     df=pd.read_csv('../data/testing_complete.csv')
     input=list(df["inputs"])
     output=list(df["outputs"])
-    for text in input:
+    for text,op in zip(input[132:],output[132:]):
         #temp=int(min(len(text.split()))-1/5)
         for bucket_id, (source_size, target_size) in enumerate(_buckets):
             flag=0
@@ -45,8 +46,8 @@ def create_testset():
             bid=5
         weights_file = "../weights"+str(bid)+".hdf5"
         model=simpleNMT(pad_length=_buckets[bid][0],
-                                  n_chars=1522,
-                                  n_labels=1522,
+                                  n_chars=1523,
+                                  n_labels=1523,
                                   embedding_learnable=False,
                                   encoder_units=256,
                                   decoder_units=256,
@@ -66,6 +67,10 @@ def create_testset():
         # prediction=prediction.reshape((1,10,10))
         #print(prediction.shape, prediction)
         prediction = np.argmax(prediction[0], axis=-1)
-        print(text, output_vocab.int_to_string(prediction))
-create_testset()
+        #print(text, output_vocab.int_to_string(prediction))
 
+        f.write(str(text) + "," + str(op) + ","+str(output_vocab.int_to_string(prediction))+"\n")
+    f.close()
+
+
+create_testset()

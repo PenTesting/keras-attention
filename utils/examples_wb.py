@@ -6,7 +6,7 @@ from models.custom_recurrents import AttentionDecoder
 from reader_wb import Data,Vocabulary
 import pandas as pd
 
-
+#f=open("tempwr.txt","w")
 outdf={'input':[],'output':[]}
 #EXAMPLES = ['26th January 2016', '3 April 1989', '5 Dec 09', 'Sat 8 Jun 2017']
 _buckets = [(5,5),(10,10),(15, 15), (20, 20), (25, 25),(40,40)]
@@ -16,13 +16,16 @@ def run_example(model,kbs, input_vocabulary, output_vocabulary, text):
         if len(text.split(" ")) < source_size :
             padding=_buckets[bucket_id][0]
             break'''
+    print(text)
     encoded = input_vocabulary.string_to_int(text)
     print("encoded is",encoded)
     prediction = model.predict([np.array([encoded]),kbs])
-    #print(prediction, type(prediction), prediction.shape)
+    #f.write(str(prediction[0][0][:20])+"&"+str(prediction[0][0][1930:]))
+    #print(prediction[0][0][:10],prediction[0][0][1950:], type(prediction), prediction.shape)
     #print(prediction[0].shape)
     prediction = np.argmax(prediction[0], axis=-1)
-    #print(prediction, type(prediction), prediction.shape)
+    print(prediction, type(prediction), prediction.shape)
+    print(prediction.shape,output_vocabulary.int_to_string(prediction))
     return output_vocabulary.int_to_string(prediction)
 
 def run_examples(model, kbs,input_vocabulary, output_vocabulary, examples=EXAMPLES):
@@ -34,13 +37,13 @@ def run_examples(model, kbs,input_vocabulary, output_vocabulary, examples=EXAMPL
         predicted.append(' '.join(run_example(model,kbs, input_vocabulary, output_vocabulary, example)))
         outdf['input'].append(example)
         outdf['output'].append(predicted[-1])
-        print('input:',example)
+        #print('input:',example)
         #print(type(predicted),predicted)
-        print('output:',predicted[-1])
+        #print('output:',predicted[-1])
     return predicted
 if __name__=="__main__":
     pad_length=20
-    df=pd.read_csv("../data/testing_complete.csv")
+    df=pd.read_csv("../data/testing_complete_wb.csv")
     inputs=list(df["inputs"])
     outputs=list(df["outputs"])
     input_vocab = Vocabulary('../data/vocabulary_inckbtup.json', padding=pad_length)
@@ -58,17 +61,23 @@ if __name__=="__main__":
                       return_probabilities=False)
     #model=load_model("../modelkb.hdf5",custom_objects={'AttentionDecoder': AttentionDecoder})
     model.summary()
-    weights_file="../model_weights.hdf5"
+    weights_file="../model_weights_p20_e200.hdf5"
     model.load_weights(weights_file, by_name=True)
     
     kbfile = "../data/normalised_kbtuples.csv"
     df = pd.read_csv(kbfile)
     kbs = list(df["subject"] + " " + df["relation"])
+    #print(kbs[:3])
     kbs = np.array(list(map(kb_vocabulary.string_to_int, kbs)))
     kbs=np.repeat(kbs[np.newaxis, :, :], 1, axis=0)
     data=run_examples(model,kbs,input_vocab,output_vocab,inputs)
-    f=open("output.txt","w")
-    for i,o in zip(outputs,data):
-        f.write(str(i)+","+str(o)+"\n")
+    #df=pd.DataFrame(columns=["inputs","outputs","prediction"])
+    d={'outputs':[],'inputs':[],'prediction':[]}
+    for i,o,p in zip(inputs,outputs,data):
+        d["outputs"].append(str(o))
+        d["inputs"].append(str(i))
+        d["prediction"].append(str(p))
+    df=pd.DataFrame(d)
+    df.to_csv("temp.csv")
     #print(outputs)
 

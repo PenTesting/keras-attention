@@ -15,7 +15,7 @@ def reshape(tensor,batch_size,pad_length,seq_length):
     tensor = keras.backend.reshape(tensor, (batch_size, pad_length, seq_length))
     return tensor
 def reshape2(tensor,batch_size,pad_length,seq_length):
-    tensor=tensor[:batch_size, :20,]
+    tensor=tensor[:batch_size, :pad_length,]
     tensor = keras.backend.reshape(tensor, (batch_size, pad_length, seq_length))
     return tensor
 def reshape1(tensor,batch_size,pad_length,seq_length):

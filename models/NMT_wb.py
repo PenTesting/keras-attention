@@ -5,6 +5,7 @@ from keras.layers import Lambda
 #from keras import backend as k
 from keras.models import Model
 from keras.layers import Dense, Embedding, Activation, Permute
+from keras import regularizers, constraints, initializers, activations
 from keras.layers import Input, Flatten, Dropout
 from keras.layers.recurrent import LSTM
 from keras.layers.wrappers import TimeDistributed, Bidirectional
@@ -22,7 +23,8 @@ def reshape1(tensor,batch_size,pad_length,seq_length):
     tensor=keras.backend.mean(tensor,axis=2)
     tensor = keras.backend.reshape(tensor, (batch_size, pad_length, seq_length))
     return tensor
-
+def smax(tensor):
+    return activations.softmax(tensor)
 def simpleNMT(pad_length=100,batch_size=32,
               n_chars=105,
               n_labels=6,
@@ -49,7 +51,7 @@ def simpleNMT(pad_length=100,batch_size=32,
                             input_length=pad_length,
                             trainable=embedding_learnable,
                             name='OneHot1')(input1)
-    input_embed2= Embedding(n_chars, 20,
+    input_embed2= Embedding(n_chars, pad_length,
                             input_length=443,
                             trainable=embedding_learnable,
                             name='OneHot2')(input2)
@@ -75,6 +77,7 @@ def simpleNMT(pad_length=100,batch_size=32,
     #y1_hat = keras.backend.reshape(y1_hat, (batch_size, pad_length,n_chars))
 
     y_hat = keras.layers.concatenate([y1_hat,y2_hat],axis=2)
+    #y_hat = Lambda(smax,name='smax')(y_hat)
     #model=Model(inputs=input1,outputs=y1_hat)
     model = Model(inputs=[input1,input2], outputs=y_hat)
 

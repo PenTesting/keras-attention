@@ -53,8 +53,8 @@ class Vocabulary(object):
         tokens.append('<eos>')
 
         for c in tokens:
-            if c in self.vocabulary:
-                integers.append(self.vocabulary[c])
+            if c.strip(",").strip(".").strip(":") in self.vocabulary:
+                integers.append(self.vocabulary[c.strip(",").strip(".").strip(":")])
             else:
                 integers.append(self.vocabulary['<unk>'])
 
@@ -165,8 +165,8 @@ if __name__ == '__main__':
     input_vocab = Vocabulary('./data/vocabulary_drive.json', padding=40)
     output_vocab = Vocabulary('./data/vocabulary_drive.json', padding=40)
     kb_vocabulary = Vocabulary('./data/vocabulary_drive.json', padding=4)
-    #print(output_vocab.string_to_int("find starbucks <eos>"))
-    ds = Data('./data/training_complete1.csv', input_vocab, output_vocab,kb_vocabulary)
+    print(output_vocab.string_to_int("find the address to a hospital or clinic. hospital#poi is at Stanford_Express_Care#address. thank you."))
+    ds = Data('./data/train_append.csv', input_vocab, output_vocab,kb_vocabulary)
     ds.kb_out()
     g = ds.generator(32)
     ds.load()
@@ -179,7 +179,7 @@ if __name__ == '__main__':
     print(ds.inputs[[5,10, 12]].shape)
     print(ds.targets[[5,10,12]].shape)'''
     for i in range(50):
-         print(next(g)[1].shape)
-         print(output_vocab.int_to_string(list(next(g)[0])))
-         print(output_vocab.int_to_string(list(next(g)[1])))
+         print(next(g)[0][0][0],next(g)[1][0])
+         print(output_vocab.int_to_string(list(next(g)[0][0][0])))
+         #print(output_vocab.int_to_string(list(next(g)[1][0])))
          break

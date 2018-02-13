@@ -63,7 +63,7 @@ def main(args):
 
     try:
         model.fit_generator(generator=training.generator(args.batch_size),
-                            steps_per_epoch=50,
+                            steps_per_epoch=300,
                             validation_data=validation.generator(args.batch_size),
                             validation_steps=10,
                             callbacks=[cp],
@@ -73,7 +73,7 @@ def main(args):
 
     except KeyboardInterrupt as e:
         print('Model training stopped early.')
-    model.save_weights("model_weights.hdf5")
+    model.save_weights("model_weights_p20_e500.hdf5")
 
     print('Model training complete.')
 
@@ -85,7 +85,7 @@ if __name__ == '__main__':
 
     named_args.add_argument('-e', '--epochs', metavar='|',
                             help="""Number of Epochs to Run""",
-                            required=False, default=40, type=int)
+                            required=False, default=500, type=int)
 
     named_args.add_argument('-g', '--gpu', metavar='|',
                             help="""GPU to use""",

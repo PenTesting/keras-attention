@@ -5,3 +5,4 @@ keras>=2.0.4
 h5py
 Faker
 matplotlib>=2.0.2
+fonttools>=4.43.0 # not directly required, pinned by Snyk to avoid a vulnerability

@@ -5,3 +5,5 @@ keras>=2.0.4
 h5py
 Faker
 matplotlib>=2.0.2
+numpy>=1.21.0rc1 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
